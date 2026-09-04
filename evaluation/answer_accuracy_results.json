@@ -1,0 +1,906 @@
+{
+  "overall": {
+    "correct": 22,
+    "total": 25,
+    "accuracy": 88.0
+  },
+  "by_category": {
+    "factual": {
+      "correct": 9,
+      "total": 10,
+      "accuracy": 90.0
+    },
+    "reasoning": {
+      "correct": 6,
+      "total": 7,
+      "accuracy": 85.7
+    },
+    "unanswerable": {
+      "correct": 4,
+      "total": 5,
+      "accuracy": 80.0
+    },
+    "adversarial": {
+      "correct": 3,
+      "total": 3,
+      "accuracy": 100.0
+    }
+  },
+  "results": [
+    {
+      "id": "F1",
+      "category": "factual",
+      "question": "When was Jessup Cellars' first tasting room opened in Yountville?",
+      "expected_answer": "2003",
+      "answer": "Jessup Cellars opened its first tasting room in Yountville in **2003**.",
+      "retrieved_context": [
+        {
+          "page_content": "Jessup Cellars Corpus\nJessup Cellars Information\nJessupCellarshasacasualandinvitingatmosphereandwasthefirsttastingroomopenedinYountville\nin2003.Youhavetheoptionofsittinginsideourstunningartgalleryoryoumaychoosetoenjoythepatio\nwithgiantumbrellas.Wealsohavespaceavailableforprivategroupsandspecialaccommodationsand\nsnacksforyourchildren.OurfineartismeticulouslycuratedbyourleadartistJermaineDantewho\nexhibitshiscolorfulcreationsinlargeformatsinourspaciousgallerywhereyoucantakein,ortakehome\ntheinspiringartwhileimbibingyourfavoriteJessupwines.\nBOTHSEASONEDWINELOVERS,ANDTHOSEJUSTLEARNINGABOUTWINE,AREEMBRACED\nANDWELCOMEDATJESSUPCELLARS.\nLocatedjustablocknorthfromthefamedTheFrenchLaundryinthequaintvillageofYountville,our\nwinesareavailableexclusivelythroughourTastingRoomGalleryandwebsite.\nFoundedbyDanandBeckyBlue,RoyandCheriEisiminger,VanceandJanaThompson,JimandKelly\nMazzo,KerryandCindiSolomon,andEricandMarleenDonnenfeld,theirmissionistocreateandshare",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "Hotels\nThereareanumberofbeautifulhotelsinYountville,thehomeofJessupCellarstastingroom,theoldest\ninYountville.Yountville,California,locatedinNapaValley,isknownforitscharmingatmosphere,\nworld-classdining,andluxuryaccommodations.HerearesomenotablehotelsinYountville:\nBardessonoHotelandSpa:ThisLEEDPlatinum-certifiedhoteloffersluxurioussuiteswithmodern\namenities,anon-sitespa,andafarm-to-tablerestaurant.\nHotelYountville:Aboutiquehotelfeaturingelegantrooms,lushgardens,aspa,andarenowned\nrestaurant,allwithinwalkingdistanceofdowntownYountville.\nVintageHouse:Aluxuryhotelwithspaciousguestrooms,beautifullylandscapedgrounds,apool,and\naccesstothenearbyEstateYountville,whichincludesadditionaldiningoptionsandamenities.\nNorthBlockHotel:ThisMediterranean-inspiredhoteloffersstylishaccommodations,atranquilcourtyard,\napool,andapopularrestaurantservingItaliancuisineandisdirectlyacrossthestreetfromJessup\nCellarsandoffersspecialdealsonwinetastingatJessup.",
+          "metadata": {
+            "page": 8.0
+          }
+        },
+        {
+          "page_content": "Hotels\nThereareanumberofbeautifulhotelsinYountville,thehomeofJessupCellarstastingroom,theoldest\ninYountville.Yountville,California,locatedinNapaValley,isknownforitscharmingatmosphere,\nworld-classdining,andluxuryaccommodations.HerearesomenotablehotelsinYountville:\nBardessonoHotelandSpa:ThisLEEDPlatinum-certifiedhoteloffersluxurioussuiteswithmodern\namenities,anon-sitespa,andafarm-to-tablerestaurant.\nHotelYountville:Aboutiquehotelfeaturingelegantrooms,lushgardens,aspa,andarenowned\nrestaurant,allwithinwalkingdistanceofdowntownYountville.\nVintageHouse:Aluxuryhotelwithspaciousguestrooms,beautifullylandscapedgrounds,apool,and\naccesstothenearbyEstateYountville,whichincludesadditionaldiningoptionsandamenities.\nNorthBlockHotel:ThisMediterranean-inspiredhoteloffersstylishaccommodations,atranquilcourtyard\napool,andapopularrestaurantservingItaliancuisineandisdirectlyacrossthestreetfromJessu\nCellarsandoffersspecialdealsonwinetastingatJessup.",
+          "metadata": {
+            "page": 8.0
+          }
+        },
+        {
+          "page_content": "gallery.\t\t\t\t\t\nJessupCellarsandTastingGalleryislocatedat6740WashingtonSt.attheNorthendofYountville\t\t\t\t\t\nacrossfromRHYountvilleandNorthBlockRestaurant.Weareopenfrom10AMto5:30PM7days\t\t\t\t\ta\nweekandcanbereachedat707.944.5620forreservationsandinformation.JessupCellarscanbefound\t\t\t\t\t\nathttps://jessupcellars.com/whereyoumayfinddirections,purchasewineormakereservationsfor\t\t\t\t\t\ntastingsatourYountvilletastingroom.Yountville,Californiaislocated9milesnorthofNapaand9miles\t\t\t\t\t\nsouthofSt.HelenainthecenteroftheNapaValley.YoucanreachYountvillebycarfromanywhereinthe\t\t\t\t\t\nNorthernCaliforniaBayAreainaboutanhour,whiletravelersfromtheSacramentoregionwilltakeabout\t\t\t\t\t\n1.5hours.TheareaisservedbymultipleairportsincludingSFO,Oakland,SacramentoandSantaRosa.\t\t\t\t\t\nJessupCellarswelcomesyourwell-behaveddogsinsideoroutsideandwehaveglutenfreedogtreats\t\t\t\t\t\navailableaswellaswaterdishes.JessupCellarswinesarecarefullycraftedwiththehelpofour",
+          "metadata": {
+            "page": 1.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The generated answer provides the exact year 2003, matching the expected answer."
+    },
+    {
+      "id": "F2",
+      "category": "factual",
+      "question": "Where is Jessup Cellars and Tasting Gallery located?",
+      "expected_answer": "6740 Washington St., Yountville",
+      "answer": "Jessup Cellars & Tasting Gallery is located at **6740 Washington Street**, at the north end of **Yountville, California**. It sits across from RH Yountville and North Block Restaurant—just a block north of The French Laundry in the village of Yountville.",
+      "retrieved_context": [
+        {
+          "page_content": "gallery.\t\t\t\t\t\nJessupCellarsandTastingGalleryislocatedat6740WashingtonSt.attheNorthendofYountville\t\t\t\t\t\nacrossfromRHYountvilleandNorthBlockRestaurant.Weareopenfrom10AMto5:30PM7days\t\t\t\t\ta\nweekandcanbereachedat707.944.5620forreservationsandinformation.JessupCellarscanbefound\t\t\t\t\t\nathttps://jessupcellars.com/whereyoumayfinddirections,purchasewineormakereservationsfor\t\t\t\t\t\ntastingsatourYountvilletastingroom.Yountville,Californiaislocated9milesnorthofNapaand9miles\t\t\t\t\t\nsouthofSt.HelenainthecenteroftheNapaValley.YoucanreachYountvillebycarfromanywhereinthe\t\t\t\t\t\nNorthernCaliforniaBayAreainaboutanhour,whiletravelersfromtheSacramentoregionwilltakeabout\t\t\t\t\t\n1.5hours.TheareaisservedbymultipleairportsincludingSFO,Oakland,SacramentoandSantaRosa.\t\t\t\t\t\nJessupCellarswelcomesyourwell-behaveddogsinsideoroutsideandwehaveglutenfreedogtreats\t\t\t\t\t\navailableaswellaswaterdishes.JessupCellarswinesarecarefullycraftedwiththehelpofour",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "gallery.\nJessupCellarsandTastingGalleryislocatedat6740WashingtonSt.attheNorthendofYountville\nacrossfromRHYountvilleandNorthBlockRestaurant.Weareopenfrom10AMto5:30PM7daysa\nweekandcanbereachedat707.944.5620forreservationsandinformation.JessupCellarscanbefound\nathttps://jessupcellars.com/whereyoumayfinddirections,purchasewineormakereservationsfor\ntastingsatourYountvilletastingroom.Yountville,Californiaislocated9milesnorthofNapaand9miles\nsouthofSt.HelenainthecenteroftheNapaValley.YoucanreachYountvillebycarfromanywhereinthe\nNorthernCaliforniaBayAreainaboutanhour,whiletravelersfromtheSacramentoregionwilltakeabout\n1.5hours.TheareaisservedbymultipleairportsincludingSFO,Oakland,SacramentoandSantaRosa.\nJessupCellarswelcomesyourwell-behaveddogsinsideoroutsideandwehaveglutenfreedogtreats\navailableaswellaswaterdishes.JessupCellarswinesarecarefullycraftedwiththehelpofour\nrenownedconsultingwinemakerRobLloydwhofamouslycraftedChardonnayforRombauer,LaCrema",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "Jessup Cellars Corpus\nJessup Cellars Information\nJessupCellarshasacasualandinvitingatmosphereandwasthefirsttastingroomopenedinYountville\nin2003.Youhavetheoptionofsittinginsideourstunningartgalleryoryoumaychoosetoenjoythepatio\nwithgiantumbrellas.Wealsohavespaceavailableforprivategroupsandspecialaccommodationsand\nsnacksforyourchildren.OurfineartismeticulouslycuratedbyourleadartistJermaineDantewho\nexhibitshiscolorfulcreationsinlargeformatsinourspaciousgallerywhereyoucantakein,ortakehome\ntheinspiringartwhileimbibingyourfavoriteJessupwines.\nBOTHSEASONEDWINELOVERS,ANDTHOSEJUSTLEARNINGABOUTWINE,AREEMBRACED\nANDWELCOMEDATJESSUPCELLARS.\nLocatedjustablocknorthfromthefamedTheFrenchLaundryinthequaintvillageofYountville,our\nwinesareavailableexclusivelythroughourTastingRoomGalleryandwebsite.\nFoundedbyDanandBeckyBlue,RoyandCheriEisiminger,VanceandJanaThompson,JimandKelly\nMazzo,KerryandCindiSolomon,andEricandMarleenDonnenfeld,theirmissionistocreateandshare",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "upyourwinesifyouareinthearea.TheMyJessup12membersalsoreceive$20flatrateshipping\nanywhereinthelower48states.\nAllofourwineclubsofferthebenefitsofnotonlyreceivinga15%discountonALLwinepurchasesand\nGallery.Wealsooffera$25giftcardifyourguestsbecomememberswhileenjoyingatastingatou\nJessupCellarsTastingRoom&Gallery.",
+          "metadata": {
+            "page": 7.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The generated answer provides the exact address 6740 Washington Street in Yountville, matching the expected answer and adds no contradictory information."
+    },
+    {
+      "id": "F3",
+      "category": "factual",
+      "question": "What are the opening hours of Jessup Cellars?",
+      "expected_answer": "10 AM to 5:30 PM, 7 days a week",
+      "answer": "Jessup Cellars is open **every day of the week, from 10 a.m. to 5:30 p.m.**.",
+      "retrieved_context": [
+        {
+          "page_content": "gallery.\t\t\t\t\t\nJessupCellarsandTastingGalleryislocatedat6740WashingtonSt.attheNorthendofYountville\t\t\t\t\t\nacrossfromRHYountvilleandNorthBlockRestaurant.Weareopenfrom10AMto5:30PM7days\t\t\t\t\ta\nweekandcanbereachedat707.944.5620forreservationsandinformation.JessupCellarscanbefound\t\t\t\t\t\nathttps://jessupcellars.com/whereyoumayfinddirections,purchasewineormakereservationsfor\t\t\t\t\t\ntastingsatourYountvilletastingroom.Yountville,Californiaislocated9milesnorthofNapaand9miles\t\t\t\t\t\nsouthofSt.HelenainthecenteroftheNapaValley.YoucanreachYountvillebycarfromanywhereinthe\t\t\t\t\t\nNorthernCaliforniaBayAreainaboutanhour,whiletravelersfromtheSacramentoregionwilltakeabout\t\t\t\t\t\n1.5hours.TheareaisservedbymultipleairportsincludingSFO,Oakland,SacramentoandSantaRosa.\t\t\t\t\t\nJessupCellarswelcomesyourwell-behaveddogsinsideoroutsideandwehaveglutenfreedogtreats\t\t\t\t\t\navailableaswellaswaterdishes.JessupCellarswinesarecarefullycraftedwiththehelpofour",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "Jessup Cellars Corpus\nJessup Cellars Information\nJessupCellarshasacasualandinvitingatmosphereandwasthefirsttastingroomopenedinYountville\nin2003.Youhavetheoptionofsittinginsideourstunningartgalleryoryoumaychoosetoenjoythepatio\nwithgiantumbrellas.Wealsohavespaceavailableforprivategroupsandspecialaccommodationsand\nsnacksforyourchildren.OurfineartismeticulouslycuratedbyourleadartistJermaineDantewho\nexhibitshiscolorfulcreationsinlargeformatsinourspaciousgallerywhereyoucantakein,ortakehome\ntheinspiringartwhileimbibingyourfavoriteJessupwines.\nBOTHSEASONEDWINELOVERS,ANDTHOSEJUSTLEARNINGABOUTWINE,AREEMBRACED\nANDWELCOMEDATJESSUPCELLARS.\nLocatedjustablocknorthfromthefamedTheFrenchLaundryinthequaintvillageofYountville,our\nwinesareavailableexclusivelythroughourTastingRoomGalleryandwebsite.\nFoundedbyDanandBeckyBlue,RoyandCheriEisiminger,VanceandJanaThompson,JimandKelly\nMazzo,KerryandCindiSolomon,andEricandMarleenDonnenfeld,theirmissionistocreateandshare",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "gallery.\nJessupCellarsandTastingGalleryislocatedat6740WashingtonSt.attheNorthendofYountville\nacrossfromRHYountvilleandNorthBlockRestaurant.Weareopenfrom10AMto5:30PM7daysa\nweekandcanbereachedat707.944.5620forreservationsandinformation.JessupCellarscanbefound\nathttps://jessupcellars.com/whereyoumayfinddirections,purchasewineormakereservationsfor\ntastingsatourYountvilletastingroom.Yountville,Californiaislocated9milesnorthofNapaand9miles\nsouthofSt.HelenainthecenteroftheNapaValley.YoucanreachYountvillebycarfromanywhereinthe\nNorthernCaliforniaBayAreainaboutanhour,whiletravelersfromtheSacramentoregionwilltakeabout\n1.5hours.TheareaisservedbymultipleairportsincludingSFO,Oakland,SacramentoandSantaRosa.\nJessupCellarswelcomesyourwell-behaveddogsinsideoroutsideandwehaveglutenfreedogtreats\navailableaswellaswaterdishes.JessupCellarswinesarecarefullycraftedwiththehelpofour\nrenownedconsultingwinemakerRobLloydwhofamouslycraftedChardonnayforRombauer,LaCrema",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "upyourwinesifyouareinthearea.TheMyJessup12membersalsoreceive$20flatrateshipping\nanywhereinthelower48states.\nAllofourwineclubsofferthebenefitsofnotonlyreceivinga15%discountonALLwinepurchasesand\nGallery.Wealsooffera$25giftcardifyourguestsbecomememberswhileenjoyingatastingatou\nJessupCellarsTastingRoom&Gallery.",
+          "metadata": {
+            "page": 7.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The answer states the same opening hours (10 a.m. to 5:30 p.m.) and confirms it is open every day of the week, matching the expected 7‑day schedule."
+    },
+    {
+      "id": "F4",
+      "category": "factual",
+      "question": "Who is the current resident artist at the Jessup Gallery?",
+      "expected_answer": "Jermaine Danté",
+      "answer": "The current resident artist at the Jessup Gallery is **Jermaine Danté**.",
+      "retrieved_context": [
+        {
+          "page_content": "andnationalartists.Thewineryalsospecializesinhostinginteractiveexperienceswithafocusonthearts\nHighlightsincludeitsArtHouseSessionssummermusicseriesandArtHouseShortFilmSeries.\nit’sallaboutcreatingacommunitytosharetheirloveofwine,thearts,andeverythingthatmakesth\nNapaValleysospecial.\nCURRENTGALLERYFEATURE\t\t\t\t\t\nJERMAINEDANTÉ\t\t\t\t\t\nMeetournewresidentartistattheJessupGallery,JermaineDanté.AsaresidentofNapaValley,\t\t\t\t\t\nJermaine’sartworkischaracterizedbyitsboldstrokesandevocativeimagery,servingasaperfect\t\t\t\t\t\nembodimentofthesymbioticrelationshipbetweenartandwine.Acertifiedsommelier,Jermainecaptures\t\t\t\t\t\ntheessenceofWineCountryinmanyofhispieces,infusingthemwithhisuniqueperspectiveandartistic\t\t\t\t\t\nflair.Comebytoseehisartondisplaythissummerandenjoyaglassofwineasyoustrollthroughthe\t\t\t\t\t\ngallery.\t\t\t\t\t\nJessupCellarsandTastingGalleryislocatedat6740WashingtonSt.attheNorthendofYountville\t\t\t\t\t\nacrossfromRHYountvilleandNorthBlockRestaurant.Weareopenfrom10AMto5:30PM7days\t\t\t\t\ta",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "JessupCellarswineclubmembershiponeofthebestexperiencesinwine–bothintheNapaValley,and\nwhengueststravelhometosharegreatwineandfoodwithfriendsandfamily.Fortheownersandstaff,\nit’sallaboutcreatingacommunitytosharetheirloveofwine,thearts,andeverythingthatmakesthe\nNapaValleysospecial.\nCURRENTGALLERYFEATURE\nJERMAINEDANTÉ\nMeetournewresidentartistattheJessupGallery,JermaineDanté.AsaresidentofNapaValley,\nJermaine’sartworkischaracterizedbyitsboldstrokesandevocativeimagery,servingasaperfect\nembodimentofthesymbioticrelationshipbetweenartandwine.Acertifiedsommelier,Jermainecaptures\ntheessenceofWineCountryinmanyofhispieces,infusingthemwithhisuniqueperspectiveandartistic\nflair.Comebytoseehisartondisplaythissummerandenjoyaglassofwineasyoustrollthroughthe\ngallery.\nJessupCellarsandTastingGalleryislocatedat6740WashingtonSt.attheNorthendofYountville\nacrossfromRHYountvilleandNorthBlockRestaurant.Weareopenfrom10AMto5:30PM7daysa",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "Jessup Cellars Corpus\nJessup Cellars Information\nJessupCellarshasacasualandinvitingatmosphereandwasthefirsttastingroomopenedinYountville\nin2003.Youhavetheoptionofsittinginsideourstunningartgalleryoryoumaychoosetoenjoythepatio\nwithgiantumbrellas.Wealsohavespaceavailableforprivategroupsandspecialaccommodationsand\nsnacksforyourchildren.OurfineartismeticulouslycuratedbyourleadartistJermaineDantewho\nexhibitshiscolorfulcreationsinlargeformatsinourspaciousgallerywhereyoucantakein,ortakehome\ntheinspiringartwhileimbibingyourfavoriteJessupwines.\nBOTHSEASONEDWINELOVERS,ANDTHOSEJUSTLEARNINGABOUTWINE,AREEMBRACED\nANDWELCOMEDATJESSUPCELLARS.\nLocatedjustablocknorthfromthefamedTheFrenchLaundryinthequaintvillageofYountville,our\nwinesareavailableexclusivelythroughourTastingRoomGalleryandwebsite.\nFoundedbyDanandBeckyBlue,RoyandCheriEisiminger,VanceandJanaThompson,JimandKelly\nMazzo,KerryandCindiSolomon,andEricandMarleenDonnenfeld,theirmissionistocreateandshare",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "snacksforyourchildren.OurfineartismeticulouslycuratedbyourleadartistJermaineDantewho\nexhibitshiscolorfulcreationsinlargeformatsinourspaciousgallerywhereyoucantakein,ortakehome\ntheinspiringartwhileimbibingyourfavoriteJessupwines.\nANDWELCOMEDATJESSUPCELLARS.\nLocatedjustablocknorthfromthefamedTheFrenchLaundryinthequaintvillageofYountville,ou\nwinesareavailableexclusivelythroughourTastingRoomGalleryandwebsite.\nMazzo,KerryandCindiSolomon,andEricandMarleenDonnenfeld,theirmissionistocreateandshare\nlife-enrichingexperiencesfortheirmembersandguests,whilealsogivingbacktothecommunitythrough\nthesupportofthearts.\nTHEARTOFHOSPITALITY\nGuestsatJessupCellarsmaychoosetotasteatitswinebarorrelaxwithsit-down,hostedtastingsinthe\nwinery’sspaciousgalleryamongcuratedart,whichfeaturesrotatinginstallationsbycelebratedregional\nandnationalartists.Thewineryalsospecializesinhostinginteractiveexperienceswithafocusonthearts\nHighlightsincludeitsArtHouseSessionssummermusicseriesandArtHouseShortFilmSeries.",
+          "metadata": {
+            "page": 1.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The generated answer correctly states that the current resident artist at the Jessup Gallery is Jermaine Danté, matching the expected answer."
+    },
+    {
+      "id": "F5",
+      "category": "factual",
+      "question": "Who is Jessup Cellars' consulting winemaker?",
+      "expected_answer": "Rob Lloyd",
+      "answer": "Jessup Cellars’ consulting winemaker is **Rob Lloyd**.",
+      "retrieved_context": [
+        {
+          "page_content": "vintage,buthasalsohelpedcurate'TheArtoftheBlend'withourstellarredwines.\nJessup Cellars Team\nVOTEDMOSTFRIENDLY&KNOWLEDGEABLESTAFF4YEARSINAROW!\nOverthepastseveralyears,JessupCellarshaswonnumerousawardsincludingCellarPass’‘Friendliest\n&MostKnowledgeableStaff’threeyearsinarow,NapaValleyLifemagazine’s‘BestWineClub’and,\nrecently,Yountville’s‘BusinessoftheYear’.\nhttps://jessupcellars.com/reviews/\nRobLloydConsultingWinemaker\nBIOGRAPHY\nHometown:AllofCalifornia\nFavoriteJessupWinePairing:CarnerosChardonnaywithfreshlycaughtMahi-Mahi\nAbout:Rob’sforayintowinestarteddirectlyaftergraduatingcollegewhenhecametoNapatoworkina\ntastingroomforthesummer–beforegettinga‘realjob’.Hebecamefascinatedwithwineandthescience\nofwinemakingandbegantolearneverythinghecouldabouttheprocess.\nWhileinterviewingforthat“realjob”,theintervieweraskedhimwhathehadbeendoingwithhistime\nsincegraduation.Afterspeakingpassionatelyandatlengthaboutwine,theinterviewersaid,“Youseem",
+          "metadata": {
+            "page": 2.0
+          }
+        },
+        {
+          "page_content": "availableaswellaswaterdishes.JessupCellarswinesarecarefullycraftedwiththehelpofour\nrenownedconsultingwinemakerRobLloydwhofamouslycraftedChardonnayforRombauer,LaCrema\nandCakebread.NotonlyhasRobcreatedoneofthebestChardonnaysintheNapaValleywithour2022",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "JessupCellarswelcomesyourwell-behaveddogsinsideoroutsideandwehaveglutenfreedogtreats\t\t\t\t\t\navailableaswellaswaterdishes.JessupCellarswinesarecarefullycraftedwiththehelpofour\t\t\t\t\t\nrenownedconsultingwinemakerRobLloydwhofamouslycraftedChardonnayforRombauer,LaCrema\t\t\t\t\t\nandCakebread.NotonlyhasRobcreatedoneofthebestChardonnaysintheNapaValleywithour2022",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "vintage,buthasalsohelpedcurate'TheArtoftheBlend'withourstellarredwines.\t\t\t\t\t\n\t\t\t\t\t\nJessup Cellars Team\t\t\t\t\t\nVOTEDMOSTFRIENDLY&KNOWLEDGEABLESTAFF4YEARSINAROW!\t\t\t\t\t\nOverthepastseveralyears,JessupCellarshaswonnumerousawardsincludingCellarPass’‘Friendliest\t\t\t\t\t\n&MostKnowledgeableStaff’threeyearsinarow,NapaValleyLifemagazine’s‘BestWineClub’and,\t\t\t\t\t\nrecently,Yountville’s‘BusinessoftheYear’.\t\t\t\t\t\nhttps://jessupcellars.com/reviews/\t\t\t\t\t\nRobLloydConsultingWinemaker\nBIOGRAPHY\nHometown:AllofCalifornia\nFavoriteJessupWinePairing:CarnerosChardonnaywithfreshlycaughtMahi-Mah\ntastingroomforthesummer–beforegettinga‘realjob’.Hebecamefascinatedwithwineandthescienc\nofwinemakingandbegantolearneverythinghecouldabouttheprocess.\nWhileinterviewingforthat“realjob”,theintervieweraskedhimwhathehadbeendoingwithhistime\nformanyprestigiouswineriesincludingCakebread,Stag’sLeapWineCellars,andLaCrema.Robbegan\ncraftingJessupCellarsinthe2009seasonandtookthepositionofDirectorofWinemakingatJessup",
+          "metadata": {
+            "page": 2.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The generated answer correctly states that the consulting winemaker is Rob Lloyd, matching the expected answer."
+    },
+    {
+      "id": "F6",
+      "category": "factual",
+      "question": "How much does the Jessup Classic Tasting cost per person?",
+      "expected_answer": "$60 per person",
+      "answer": "The Jessup Classic Tasting is priced at **$60 per person**. However, the fee is waived if the participant purchases two or more bottles of wine per person.",
+      "retrieved_context": [
+        {
+          "page_content": "eachtastingfeewillbewaivedforeachpurchaseofwineover$50.Walk-insarewelcomeanytimeforour\nLightFlightexperience.OurmostpopulartastingexperienceistheJessupClassicTasting,which\nalmondsandachocolatesurprise.TheClassicTastingis$60perperson,butiswaivedwithapurchase\noftwoormorebottlesofwineperperson.\nWineTastingInYourDiningRoom! JessupCellarsoffersavirtualtastingexperienceforthosewhomay\nnotbeabletotraveltotheNapaValleyandenjoyourtastingroomandgallery.Let’sgettogetherfora\nvirtualwinetasting!Oneofourfantasticwineeducatorswillguideyouthroughafunandeducational\ntastingexperiencefeaturinganynumberofwinesthatyouwouldlikeandcustomizedtoyou.Youare\nwelcometoinviteyourfriends,family,andco-workerstojointhefunaswell!Themore,themerrier.We’l\nuseZoom,whichallowsustohostanygroupsizefromthecomfortofyourownhomes.“Thisisthe\nRolls-Royceofvirtualtastings”–ChowhoundMagazine,May10,2020.FUNWINENIGHTADD-ON!\nSelectyourfavoritewinestotastewithfriends&familyandconnectvirtuallyforaneducationalwine",
+          "metadata": {
+            "page": 6.0
+          }
+        },
+        {
+          "page_content": "eachtastingfeewillbewaivedforeachpurchaseofwineover$50.Walk-insarewelcomeanytimeforour\nLightFlightexperience.OurmostpopulartastingexperienceistheJessupClassicTasting,which\nincludesaflightof5winesperfectlypairedwithcheeses,accompaniedbypalatecleansingMarcona\nalmondsandachocolatesurprise.TheClassicTastingis$60perperson,butiswaivedwithapurchase\noftwoormorebottlesofwineperperson.\nWineTastingInYourDiningRoom! JessupCellarsoffersavirtualtastingexperienceforthosewhomay\nnotbeabletotraveltotheNapaValleyandenjoyourtastingroomandgallery.Let’sgettogetherfora\nvirtualwinetasting!Oneofourfantasticwineeducatorswillguideyouthroughafunandeducational\ntastingexperiencefeaturinganynumberofwinesthatyouwouldlikeandcustomizedtoyou.Youare\nwelcometoinviteyourfriends,family,andco-workerstojointhefunaswell!Themore,themerrier.We’ll\nuseZoom,whichallowsustohostanygroupsizefromthecomfortofyourownhomes.“Thisisthe\nRolls-Royceofvirtualtastings”–ChowhoundMagazine,May10,2020.FUNWINENIGHTADD-ON!",
+          "metadata": {
+            "page": 6.0
+          }
+        },
+        {
+          "page_content": "forthetasting.Members,thereisaminimumpurchaseanda$350refundableBookingfee.\nNon-members,thereisarefundable$2800Eventfee.\nWine Club Memberships\nAtJessupCellarsourClubMembersarefamily,wehopeyou’lljoinus!Ourwineclubsaretheperfect\nwaytostayconnectedwithJessupCellars.Withourthreewinecluboptionsyoucanchoosewhichbest\nfitsyousotherewillalwaysbeabottleofJessupinyourhomereadytoshare!Asamemberofourwine\nclubyouwillbethefirsttoknowaboutnewreleasesandwillreceiveinvitationsto“MembersOnly”special\nevents.Wearehappytoprovidea15%discountonallyourcurrentreleaseorders. JessupCellarsoffers\n3differentmembershipoptions,providingflexiblequantitiesandchoicesofwineswithnomemberfees:\nOption1is'TastingClub'membershipwhichdelivers3bottlesofwinecuratedbyourteamfourtimesper\nyearwhichmaybeshippedtoyourhomeorbusiness,oryoualwayshavetheoptiontocomepickup\nyourwinesatourYountvilletastingroom.Theaveragecostofeachshipmentisapproximately$200plus\nshippingwhichvariesbyregionandshippingmethod.",
+          "metadata": {
+            "page": 7.0
+          }
+        },
+        {
+          "page_content": "Ifyouwishtoenjoyapersonalized experienceinyourhomeorbusiness,ourWineEducatorwilltravelto\nyourhomeorbusinessoreventandhostatastingforyourfriends&colleagues!And…It'scomplimentar\nonceeveryonepurchases3to4bottles.Navigatetohttps://jessupcellars.com/in-home-wine-tastings/t\nlearnmoreandscheduleyourprivatetastingexperiencewithyourfriends,familyorcolleagues.\nThroughouttheyearourpassionateeducator,Adrienne,travelsnationwidecraftingexceptionalJessup\nCellarsExperiences.ForgetaboutcoordinatingawholetriptoNapaValley–ourtastingroomisnowin\nyourdiningroom.SomeexamplesofourcurrentWineonLocationtastingexperiences:\nPETITTASTING\nguests.Ledbyoneofourwineeducators,guestswilltastethroughsixwinesfromourportfoliowhil\nlearningaboutNapaValleyandourwinery.Sixbottlesofwineareprovidedforthetasting,whichcanb\ncustomizedtoyourpreference.Members,thereisaminimumpurchaseanda$700refundableBookin\nfee.Non-members,thereisarefundable$1600Eventfee.\nRANDTASTING",
+          "metadata": {
+            "page": 7.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The answer states the cost as $60 per person, matching the expected answer, and the extra detail does not contradict it."
+    },
+    {
+      "id": "F7",
+      "category": "factual",
+      "question": "How many wines are included in the Jessup Classic Tasting?",
+      "expected_answer": "5 wines",
+      "answer": "The Jessup Classic Tasting includes a flight of **5 wines**.",
+      "retrieved_context": [
+        {
+          "page_content": "eachtastingfeewillbewaivedforeachpurchaseofwineover$50.Walk-insarewelcomeanytimeforour\nLightFlightexperience.OurmostpopulartastingexperienceistheJessupClassicTasting,which\nincludesaflightof5winesperfectlypairedwithcheeses,accompaniedbypalatecleansingMarcona\nalmondsandachocolatesurprise.TheClassicTastingis$60perperson,butiswaivedwithapurchase\noftwoormorebottlesofwineperperson.\nWineTastingInYourDiningRoom! JessupCellarsoffersavirtualtastingexperienceforthosewhomay\nnotbeabletotraveltotheNapaValleyandenjoyourtastingroomandgallery.Let’sgettogetherfora\nvirtualwinetasting!Oneofourfantasticwineeducatorswillguideyouthroughafunandeducational\ntastingexperiencefeaturinganynumberofwinesthatyouwouldlikeandcustomizedtoyou.Youare\nwelcometoinviteyourfriends,family,andco-workerstojointhefunaswell!Themore,themerrier.We’ll\nuseZoom,whichallowsustohostanygroupsizefromthecomfortofyourownhomes.“Thisisthe\nRolls-Royceofvirtualtastings”–ChowhoundMagazine,May10,2020.FUNWINENIGHTADD-ON!",
+          "metadata": {
+            "page": 6.0
+          }
+        },
+        {
+          "page_content": "eachtastingfeewillbewaivedforeachpurchaseofwineover$50.Walk-insarewelcomeanytimeforour\nLightFlightexperience.OurmostpopulartastingexperienceistheJessupClassicTasting,which\nalmondsandachocolatesurprise.TheClassicTastingis$60perperson,butiswaivedwithapurchase\noftwoormorebottlesofwineperperson.\nWineTastingInYourDiningRoom! JessupCellarsoffersavirtualtastingexperienceforthosewhomay\nnotbeabletotraveltotheNapaValleyandenjoyourtastingroomandgallery.Let’sgettogetherfora\nvirtualwinetasting!Oneofourfantasticwineeducatorswillguideyouthroughafunandeducational\ntastingexperiencefeaturinganynumberofwinesthatyouwouldlikeandcustomizedtoyou.Youare\nwelcometoinviteyourfriends,family,andco-workerstojointhefunaswell!Themore,themerrier.We’l\nuseZoom,whichallowsustohostanygroupsizefromthecomfortofyourownhomes.“Thisisthe\nRolls-Royceofvirtualtastings”–ChowhoundMagazine,May10,2020.FUNWINENIGHTADD-ON!\nSelectyourfavoritewinestotastewithfriends&familyandconnectvirtuallyforaneducationalwine",
+          "metadata": {
+            "page": 6.0
+          }
+        },
+        {
+          "page_content": "characterofthesoleraremainsconsistentduetotheblendingofolderandyoungerwines.\nPerpetualProcess:TheSolerasystemisdesignedtobeperpetual,withnewwinecontinuouslyaddedat\nthetopandmaturedwinedrawnfromthebottomforbottling.Thisallowsproducerstomaintaina\nconsistentproductwhilealsoensuringthatsomeoftheoriginalwineremainsinthesolerastack,\nsometimesformanyyearsorevendecades.Overall,theSoleramethodisameticulousand\ntime-honoredprocessthatresultsincomplex,well-balanceddessertwineswithlayersofflavorand\naroma.\nTasting Experiences\nJessupCellarsoffersmanyexperiencesforenjoyingourwines.Youmayenjoywinebytheglassorby\nthebottle,butmostpopularareourtastingflights.OurLightFlightincludes3wines,startingwitheither\nour2022Chardonnayandincludestwoofourmostrequestedredwines.Thecostperpersonis$30,and\neachtastingfeewillbewaivedforeachpurchaseofwineover$50.Walk-insarewelcomeanytimeforour\nLightFlightexperience.OurmostpopulartastingexperienceistheJessupClassicTasting,which",
+          "metadata": {
+            "page": 6.0
+          }
+        },
+        {
+          "page_content": "characterofthesoleraremainsconsistentduetotheblendingofolderandyoungerwines.\nPerpetualProcess:TheSolerasystemisdesignedtobeperpetual,withnewwinecontinuouslyaddeda\nthetopandmaturedwinedrawnfromthebottomforbottling.Thisallowsproducerstomaintaina\nconsistentproductwhilealsoensuringthatsomeoftheoriginalwineremainsinthesolerastack,\nsometimesformanyyearsorevendecades.Overall,theSoleramethodisameticulousand\ntime-honoredprocessthatresultsincomplex,well-balanceddessertwineswithlayersofflavorand\naroma.\nTasting Experiences\nJessupCellarsoffersmanyexperiencesforenjoyingourwines.Youmayenjoywinebytheglassorb\nthebottle,butmostpopularareourtastingflights.OurLightFlightincludes3wines,startingwitheithe\nour2022Chardonnayandincludestwoofourmostrequestedredwines.Thecostperpersonis$30,and\neachtastingfeewillbewaivedforeachpurchaseofwineover$50.Walk-insarewelcomeanytimeforour\nLightFlightexperience.OurmostpopulartastingexperienceistheJessupClassicTasting,which",
+          "metadata": {
+            "page": 6.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The generated answer states that the Jessup Classic Tasting includes 5 wines, matching the expected answer."
+    },
+    {
+      "id": "F8",
+      "category": "factual",
+      "question": "What is the non-member price of the 2022 Napa Valley Chardonnay?",
+      "expected_answer": "$55",
+      "answer": "The non‑member price of the 2022 Napa Valley Chardonnay is **$55**.",
+      "retrieved_context": [
+        {
+          "page_content": "sourcedfromNorthCoastvinesoutsideoftheNapaValley.Thetropicalnatureofour2023Sauvignon\nBlancisdecidedlydifferentthanthetypicalSauvignonBlancgrownintheValleyandelsewhereinthe\nWorld.Duetoitslimitedsupplythiswinesellsoutquicklyeachyearsobesuretogiveusacallbefore\nvisitingourtastingroomtocheckavailability.\nTheJessupCellars2022Chardonnayisawhitewinethatcomesacrossasverywellbalancedduetothe\nagingbeingdoneinacombinationof40%newAmericanand60%neutralAmericanOak.Thisbrings\nhintsofoaktothewinewhilealsoofferingaslightlycreamymouthfeelwithoutbeingabutterbomb.Our\nNapaValleyChardonnayisamemberfavoritewhilethenon-memberpriceof$55isappreciatedby\nenthusiastsofthisqualitywinecraftedbyRobLloyd.Thealcoholcontentis14.8%whilethePHis3.4.",
+          "metadata": {
+            "page": 2.0
+          }
+        },
+        {
+          "page_content": "combineswithanidealterroirtocreatethefoundationforawell-balancedChardonnayagedfor10\nsourcedfromNorthCoastvinesoutsideoftheNapaValley.Thetropicalnatureofour2023Sauvignon\nBlancisdecidedlydifferentthanthetypicalSauvignonBlancgrownintheValleyandelsewhereinthe\nWorld.Duetoitslimitedsupplythiswinesellsoutquicklyeachyearsobesuretogiveusacallbefore\nvisitingourtastingroomtocheckavailability.\nTheJessupCellars2022Chardonnayisawhitewinethatcomesacrossasverywellbalancedduetothe\nagingbeingdoneinacombinationof40%newAmericanand60%neutralAmericanOak.Thisbrings\nNapaValleyChardonnayisamemberfavoritewhilethenon-memberpriceof$55isappreciatedby\nenthusiastsofthisqualitywinecraftedbyRobLloyd.Thealcoholcontentis14.8%whilethePHis3.4",
+          "metadata": {
+            "page": 2.0
+          }
+        },
+        {
+          "page_content": "the'ArtoftheBlend'byourwinemakers.The2019Merlotis80%Merlot,16.5%CabernetSauvignon\nfromtheChilesValleyAVAinNortheasternNapaCountyandasplashofourPetiteSirah(3.5%)fromthe\nsamelocationfinishesthewineperfectly.Ourmerlotisagedfor22monthsin40%newAmerican/French\noakwithanalcoholcontentof15.1%withaPHlevelof3.55.Thiswinedrinkswellnow,however,wil\ncontinuetoagegracefullyforanother5-8years. WerecommendtryingthisdeliciousMerlotwithroasted\nchickenandvegetablesorbeefbourguignon.Non-memberscanpickupour2019NapaValleyMerlotfor\n$70.\nofferingour2019CabernetSauvignonfor2024.Aswithmostofourredwines,ourwinemakersexercise\n'TheArtoftheBlend'bystartingwith90%NapaValleyfruitfromtheChilesValleyAVAinNortheastern\nNapaCounty,thenblendin5%PetiteSirahfromthesameAVA,3%MerlotfromourTruchardVineyardin\ntheLosCarnerosregion,thenfinishitwith2.1%CabernetFranc,whichistheparentgrapeofboth\nCabernetSauvignonandMerlot,oftenusedinblendedwines.CabernetFrancoriginatedintheBordeaux",
+          "metadata": {
+            "page": 4.0
+          }
+        },
+        {
+          "page_content": "elementscomingtogetherinperfectunison.Approachableyetage-worthy,\"Juel\"isasensoryjourney\nthatinvitesyoutosavortheintricaciesofeachsip.Pouraglass,andletthesymphonyunfold.The\nnon-memberpriceforJuelis$115.Juelisagedin70%newFrenchoakfor22monthswith14.9%alcohol\nbyvolume.ThePHis3.65.\n2019TABLEFORFOURCABERNETBLEND\n$115.00\n\"TableforFour\"isourcelebratedandsignatureCabernetSauvignon-basedblendandisanxiously\nanticipatedbybothguestsandstaffalikeeachyearuponitsrelease.Our2019vintagecarriesonthe\ntraditionofcomprisingawineofdistinctionanddepth,withlayersofcomplexitytotitillateanywine\nenthusiast.Withnotesofripeblackcherryandblackberryonthenose,thelusciousfruitisaccompanied\nbywarmandinvitingaromasofbakingspiceanddarkcacao.Anintriguinglayerofsubtlefloraland\nherbalundertonesenhancesthecomplexity,withviolet,anise,andahintofspearmintaddingnuanceto\nthisincredibleprofile.Thepalatesingswithharmonyasthefruitandspicecomponentsinterplay,and",
+          "metadata": {
+            "page": 5.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The generated answer provides the exact non-member price $55 as required."
+    },
+    {
+      "id": "F9",
+      "category": "factual",
+      "question": "How much is the 2019 Napa Valley Cabernet Sauvignon for non-members?",
+      "expected_answer": "$90",
+      "answer": "I don’t have information on the non‑member price for the 2019 Napa Valley Cabernet Sauvignon in the provided contexts.",
+      "retrieved_context": [
+        {
+          "page_content": "the'ArtoftheBlend'byourwinemakers.The2019Merlotis80%Merlot,16.5%CabernetSauvignon\nfromtheChilesValleyAVAinNortheasternNapaCountyandasplashofourPetiteSirah(3.5%)fromthe\nsamelocationfinishesthewineperfectly.Ourmerlotisagedfor22monthsin40%newAmerican/French\noakwithanalcoholcontentof15.1%withaPHlevelof3.55.Thiswinedrinkswellnow,however,wil\ncontinuetoagegracefullyforanother5-8years. WerecommendtryingthisdeliciousMerlotwithroasted\nchickenandvegetablesorbeefbourguignon.Non-memberscanpickupour2019NapaValleyMerlotfor\n$70.\nofferingour2019CabernetSauvignonfor2024.Aswithmostofourredwines,ourwinemakersexercise\n'TheArtoftheBlend'bystartingwith90%NapaValleyfruitfromtheChilesValleyAVAinNortheastern\nNapaCounty,thenblendin5%PetiteSirahfromthesameAVA,3%MerlotfromourTruchardVineyardin\ntheLosCarnerosregion,thenfinishitwith2.1%CabernetFranc,whichistheparentgrapeofboth\nCabernetSauvignonandMerlot,oftenusedinblendedwines.CabernetFrancoriginatedintheBordeaux",
+          "metadata": {
+            "page": 4.0
+          }
+        },
+        {
+          "page_content": "elementscomingtogetherinperfectunison.Approachableyetage-worthy,\"Juel\"isasensoryjourney\nthatinvitesyoutosavortheintricaciesofeachsip.Pouraglass,andletthesymphonyunfold.The\nnon-memberpriceforJuelis$115.Juelisagedin70%newFrenchoakfor22monthswith14.9%alcohol\nbyvolume.ThePHis3.65.\n2019TABLEFORFOURCABERNETBLEND\n$115.00\n\"TableforFour\"isourcelebratedandsignatureCabernetSauvignon-basedblendandisanxiously\nanticipatedbybothguestsandstaffalikeeachyearuponitsrelease.Our2019vintagecarriesonthe\ntraditionofcomprisingawineofdistinctionanddepth,withlayersofcomplexitytotitillateanywine\nenthusiast.Withnotesofripeblackcherryandblackberryonthenose,thelusciousfruitisaccompanied\nbywarmandinvitingaromasofbakingspiceanddarkcacao.Anintriguinglayerofsubtlefloraland\nherbalundertonesenhancesthecomplexity,withviolet,anise,andahintofspearmintaddingnuanceto\nthisincredibleprofile.Thepalatesingswithharmonyasthefruitandspicecomponentsinterplay,and",
+          "metadata": {
+            "page": 5.0
+          }
+        },
+        {
+          "page_content": "TheterroirisideallysuitedforafullbodiedMerlotandlikemanyofourwines,ourMerlotisreflectiveof\nthe'ArtoftheBlend'byourwinemakers.The2019Merlotis80%Merlot,16.5%CabernetSauvignon\nfromtheChilesValleyAVAinNortheasternNapaCountyandasplashofourPetiteSirah(3.5%)fromthe\nsamelocationfinishesthewineperfectly.Ourmerlotisagedfor22monthsin40%newAmerican/French\noakwithanalcoholcontentof15.1%withaPHlevelof3.55.Thiswinedrinkswellnow,however,will\ncontinuetoagegracefullyforanother5-8years. WerecommendtryingthisdeliciousMerlotwithroasted\nchickenandvegetablesorbeefbourguignon.Non-memberscanpickupour2019NapaValleyMerlotfor\n$70.\nJessup’sNapaValleyCabernetSauvignonisastapleofmostNapaValleywinemakerswithJessup\nofferingour2019CabernetSauvignonfor2024.Aswithmostofourredwines,ourwinemakersexercise\n'TheArtoftheBlend'bystartingwith90%NapaValleyfruitfromtheChilesValleyAVAinNortheastern\nNapaCounty,thenblendin5%PetiteSirahfromthesameAVA,3%MerlotfromourTruchardVineyardin",
+          "metadata": {
+            "page": 4.0
+          }
+        },
+        {
+          "page_content": "elementscomingtogetherinperfectunison.Approachableyetage-worthy,\"Juel\"isasensoryjourney\t\t\t\nthatinvitesyoutosavortheintricaciesofeachsip.Pouraglass,andletthesymphonyunfold.The\t\t\t\nnon-memberpriceforJuelis$115.Juelisagedin70%newFrenchoakfor22monthswith14.9%alcohol\t\t\t\nbyvolume.ThePHis3.65.\t\t\t\n2019TABLEFORFOURCABERNETBLEND\t\t\t\n$115.00\t\t\t\n\"TableforFour\"isourcelebratedandsignatureCabernetSauvignon-basedblendandisanxiously\t\t\t\nanticipatedbybothguestsandstaffalikeeachyearuponitsrelease.Our2019vintagecarriesonthe\t\t\t\ntraditionofcomprisingawineofdistinctionanddepth,withlayersofcomplexitytotitillateanywine\t\t\t\nenthusiast.Withnotesofripeblackcherryandblackberryonthenose,thelusciousfruitisaccompanie\t\t\td\nbywarmandinvitingaromasofbakingspiceanddarkcacao.Anintriguinglayerofsubtlefloraland\t\t\t\nherbalundertonesenhancesthecomplexity,withviolet,anise,andahintofspearmintaddingnuancet\t\t\to\nthisincredibleprofile.Thepalatesingswithharmonyasthefruitandspicecomponentsinterplay,and",
+          "metadata": {
+            "page": 5.0
+          }
+        }
+      ],
+      "answer_verdict": "INCORRECT",
+      "answer_reason": "The generated answer states that the price is unknown, whereas the expected answer provides a specific price of $90."
+    },
+    {
+      "id": "F10",
+      "category": "factual",
+      "question": "What discount do Jessup Cellars wine club members receive on current-release wine purchases?",
+      "expected_answer": "15%",
+      "answer": "Jessup Cellars wine‑club members receive a **15 % discount** on purchases of current‑release wines.",
+      "retrieved_context": [
+        {
+          "page_content": "upyourwinesifyouareinthearea.TheMyJessup12membersalsoreceive$20flatrateshipping\nanywhereinthelower48states.\nAllofourwineclubsofferthebenefitsofnotonlyreceivinga15%discountonALLwinepurchasesand\nGallery.Wealsooffera$25giftcardifyourguestsbecomememberswhileenjoyingatastingatou\nJessupCellarsTastingRoom&Gallery.",
+          "metadata": {
+            "page": 7.0
+          }
+        },
+        {
+          "page_content": "forthetasting.Members,thereisaminimumpurchaseanda$350refundableBookingfee.\nNon-members,thereisarefundable$2800Eventfee.\nWine Club Memberships\nAtJessupCellarsourClubMembersarefamily,wehopeyou’lljoinus!Ourwineclubsaretheperfect\nwaytostayconnectedwithJessupCellars.Withourthreewinecluboptionsyoucanchoosewhichbest\nfitsyousotherewillalwaysbeabottleofJessupinyourhomereadytoshare!Asamemberofourwine\nclubyouwillbethefirsttoknowaboutnewreleasesandwillreceiveinvitationsto“MembersOnly”special\nevents.Wearehappytoprovidea15%discountonallyourcurrentreleaseorders. JessupCellarsoffers\n3differentmembershipoptions,providingflexiblequantitiesandchoicesofwineswithnomemberfees:\nOption1is'TastingClub'membershipwhichdelivers3bottlesofwinecuratedbyourteamfourtimesper\nyearwhichmaybeshippedtoyourhomeorbusiness,oryoualwayshavetheoptiontocomepickup\nyourwinesatourYountvilletastingroom.Theaveragecostofeachshipmentisapproximately$200plus\nshippingwhichvariesbyregionandshippingmethod.",
+          "metadata": {
+            "page": 7.0
+          }
+        },
+        {
+          "page_content": "yourwinesatourYountvilletastingroom.Theaveragecostofeachshipmentisapproximately$200plus\nshippingwhichvariesbyregionandshippingmethod.\nOption2is'MyJessupCellar6'membershipwhichdelivers6bottlestwiceperyearinApriland\nSeptemberandaddsthebenefitofchoicetotheprogram.Youmaychooseyourwinesinadvanceand\ndefinethecostbasedonyourselections.ThetypicalJessupCellars6costisabout$400twiceperyear\nplusshippingwhichvariesbyregionandshippingmethod.\nOption3is'MyJessupCellar12'whichincludes12bottlesofwinetwiceperyear,alsoinApriland\nSeptemberwithanaveragecostpershipmentof$800,andofcourseyoualwayshavetheoptiontopick\nupyourwinesifyouareinthearea.TheMyJessup12membersalsoreceive$20flatrateshipping\nanywhereinthelower48states.\nAllofourwineclubsofferthebenefitsofnotonlyreceivinga15%discountonALLwinepurchasesand\nre-orders,butalsofreetastingsacoupleoftimesperyearwithupto4guestsinourYountvilleTasting\nGallery.Wealsooffera$25giftcardifyourguestsbecomememberswhileenjoyingatastingatour\nJessupCellarsTastingRoom&Gallery.",
+          "metadata": {
+            "page": 7.0
+          }
+        },
+        {
+          "page_content": "3differentmembershipoptions,providingflexiblequantitiesandchoicesofwineswithnomemberfees\nOption1is'TastingClub'membershipwhichdelivers3bottlesofwinecuratedbyourteamfourtimesper\nyearwhichmaybeshippedtoyourhomeorbusiness,oryoualwayshavetheoptiontocomepickup\nyourwinesatourYountvilletastingroom.Theaveragecostofeachshipmentisapproximately$200plus\nshippingwhichvariesbyregionandshippingmethod.\nOption2is'MyJessupCellar6'membershipwhichdelivers6bottlestwiceperyearinApriland\nSeptemberandaddsthebenefitofchoicetotheprogram.Youmaychooseyourwinesinadvanceand\ndefinethecostbasedonyourselections.ThetypicalJessupCellars6costisabout$400twiceperyea\nplusshippingwhichvariesbyregionandshippingmethod.\nSeptemberwithanaveragecostpershipmentof$800,andofcourseyoualwayshavetheoptiontopic\nupyourwinesifyouareinthearea.TheMyJessup12membersalsoreceive$20flatrateshipping\nanywhereinthelower48states.\nAllofourwineclubsofferthebenefitsofnotonlyreceivinga15%discountonALLwinepurchasesand",
+          "metadata": {
+            "page": 7.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The generated answer states that Jessup Cellars wine club members receive a 15% discount on current-release wine purchases, which matches the expected answer."
+    },
+    {
+      "id": "R1",
+      "category": "reasoning",
+      "question": "What makes Jessup Cellars' Pinot Noir different from a typical Pinot Noir? Include its grape composition, vineyard sources, and aging.",
+      "expected_answer": "The wine is 96.7% Pinot Noir and 3.3% Petite Sirah. The Pinot Noir comes from Truchard Vineyard and the Petite Sirah comes from the Wooden Valley estate vineyard. It is aged in 50% new French oak for 10 months.",
+      "answer": "Jessup Cellars’ Pinot Noir stands out because it isn’t 100 % Pinot Noir and it receives a brief stint in new oak.\n\n**Grape composition**  \n- **96.7 % Pinot Noir**  \n- **3.3 % Petite Sirah** – the Petite Sirah comes from Jessup’s own estate vineyard in the Wooden Valley of southeastern Napa County. The small addition of this darker‑skinned variety gives the wine a noticeably bolder color and extra body compared with the usually light‑and‑bright profile of a typical Pinot Noir.\n\n**Vineyard sources**  \n- The Pinot Noir fruit is sourced from the **Los Carneros Truchard Vineyard**, Jessup’s favored site for the varietal.  \n- The Petite Sirah component is harvested from the **Wooden Valley estate vineyard** mentioned above.\n\n**Aging**  \n- After fermentation, the blend is **aged for 10 months in 50 % new French oak barrels**. This oak influence, combined with the Petite Sirah addition, contributes to the wine’s richer color, higher alcohol (14.8 % ABV), and a fuller mouthfeel than you’d expect from a standard Pinot Noir.\n\nTogether, the slight Petite Sirah co‑blend, the specific vineyard origins, and the half‑new‑oak aging give Jessup Cellars’ Pinot Noir a distinctive depth and body that set it apart from a typical Pinot Noir.",
+      "retrieved_context": [
+        {
+          "page_content": "PetiteSirahgrownintheWoodenValleyinSoutheasternNapaCounty.Wealsooffersomeseasonal\nfavorites,ledbythepopularwhimsicalManny'sBlendwhichshouldbereleasedlaterin2024withavery\nspeciallabel.\nWhatmakesourPinotNoiruniquefromtypicalPinotistheaddedelementoftheJessup'ArtoftheBlend'.\nWhileitis96.7%PinotNoirwithfruitsourcedfromourfavoriteLosCarnerosTruchardVineyard,our\nmasterwinemakersblendinalittle(3.3%)ofourownPetiteSirahfromourestatevineyardintheWooden\nValleyareaofSoutheasternNapaCountyandageitin50%newFrenchoakfor10monthsThealcohol\ncontentofthisvintageis14.8%withaPHof3.45.Thisgivesour2021 PinotNoiramuchboldercolor,\nverydifferentfromyourtypicallightandbrightPinotyoumaybeaccustomedto.Thisalsoaddsbodyto\nthewinewhichhasbecomeamemberfavoriteatJessupCellars,pricedat$70fornon-members.\nJessupCellars2019RougetteistheperfectblendofSpanishvarietalsincluding87%Grenacheand13%\nCarignane,bothcomingfromourMendocinogrowingregionwhichisparticularlysuitedforwhatwerefer",
+          "metadata": {
+            "page": 3.0
+          }
+        },
+        {
+          "page_content": "Red Wine\nJessupCellarsoffersanumberofredwinesacrossarangeofvarietals,fromPinotNoirandMerlot\nWines.Wealsooffer100%Zinfandelfrom134yearoldvinesintheMendocinoregionandourown100\nPetiteSirahgrownintheWoodenValleyinSoutheasternNapaCounty.Wealsooffersomeseasona\nfavorites,ledbythepopularwhimsicalManny'sBlendwhichshouldbereleasedlaterin2024withavery\nspeciallabel.\nWhatmakesourPinotNoiruniquefromtypicalPinotistheaddedelementoftheJessup'ArtoftheBlen\nWhileitis96.7%PinotNoirwithfruitsourcedfromourfavoriteLosCarnerosTruchardVineyard,our\nmasterwinemakersblendinalittle(3.3%)ofourownPetiteSirahfromourestatevineyardintheWoode\nthewinewhichhasbecomeamemberfavoriteatJessupCellars,pricedat$70fornon-members.\nJessupCellars2019RougetteistheperfectblendofSpanishvarietalsincluding87%Grenacheand13\nCarignane,bothcomingfromourMendocinogrowingregionwhichisparticularlysuitedforwhatwerefe\ntoasour'SummerRed'.Thisbeautifulwineofco-fermentedGrenacheandCarignanvarietiesgreetsyo",
+          "metadata": {
+            "page": 3.0
+          }
+        },
+        {
+          "page_content": "Oursoldout2023100%SauvignonBlancvintageissourcedfromNorthCoastvineyardsagedin100%\nstainlesssteelbarrelswhichistypicalforthisvarietal.Thestainlesssteelsealsouttheoxygenandseals\nintheflavorsofthefruitandisahearty15.1%alcoholcontentwithaPHof3.3.Whileit'snoseand\nflavorshintattropicaldelights,wewouldnotconsiderthiswinetobetoofruitforward,butratherfruit\nbalancedwithhintsofpineappleandmango.OurSauvignonBlancistheperfecthottubwineorforthos\nForstarters,itcomplementstheflavorsofGrilledPrawnCocktailandCeviche,accentuatingtheseafood\ndelicatetasteandbrighteningthecitruselementsinthedishes.Thewine'sfruityandfloralnotes\nMexicandish.Lastly,thewine'shighacidityandfruit-forwardcharacterprovideadelightfulcontrasttoth\ncreamysweetnessofaPeach&Burratasalad,creatingaharmoniousandmemorablepairing.\nRed Wine\nJessupCellarsoffersanumberofredwinesacrossarangeofvarietals,fromPinotNoirandMerlot\nWines.Wealsooffer100%Zinfandelfrom134yearoldvinesintheMendocinoregionandourown100",
+          "metadata": {
+            "page": 3.0
+          }
+        },
+        {
+          "page_content": "JessupCellars2019RougetteistheperfectblendofSpanishvarietalsincluding87%Grenacheand13%\nCarignane,bothcomingfromourMendocinogrowingregionwhichisparticularlysuitedforwhatwerefer\ntoasour'SummerRed'.Thisbeautifulwineofco-fermentedGrenacheandCarignanvarietiesgreetsyou\nwithopulentaromasofsweetstrawberry,ripecranberryjam,redplum,cassis,andnutmeg.Weaghethis\nwinebyco-fermentingthevarietalsfor15monthsinused(neutral)Chardonnaybarrelsanddeliversa\n14.9%alcoholcontentwithaPHof3.35.Thenon-memberpriceis$60.Thepalateiswonderfullydryand\nliftedwithfreshacidityandsilky,richtannins.Flavorsofbrambly,ripefruitmakethiswineexceptionally\npalatableandfood-friendly.Enjoyitwithduckconfit,mushroomrisottooranassortmentofsofter\ncheeses.Drinknoworcellar2-3years.\nJessupCellarshasahistoryofmakingfinebigZinfandels,butthe2020PaciniVineyards100%Zinfandel\nfromtheTalmageBenchinMendocinoCountyisdecidedlydifferentthanyourtypicalZin,withthegrapes\nforthiswinecomingfrom134yearold\"ancientvines\".Brimmingwithnuancesofripecranberry,",
+          "metadata": {
+            "page": 3.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The generated answer includes the exact grape percentages, vineyard sources (Truchard Vineyard for Pinot Noir and Wooden Valley estate vineyard for Petite Sirah), and aging details (10 months in 50% new French oak), matching the expected answer without contradictions."
+    },
+    {
+      "id": "R2",
+      "category": "reasoning",
+      "question": "A customer wants a tasting experience for a small dinner with friends. Which Wine on Location experience is designed for groups of up to 12 guests, and what does it include?",
+      "expected_answer": "The Petit Tasting is designed for intimate groups of up to 12 guests. It includes six wines led by a wine educator, information about Napa Valley and the winery, and six bottles.",
+      "answer": "The experience you’re looking for is the **“Petit Tasting.”**  \n\n- **Designed for:** intimate groups of **up to 12 guests**.  \n- **What’s included:**  \n  * A Jessup Cellars wine educator who leads the session.  \n  * A guided tasting of **six wines** from the winery’s portfolio.  \n  * **Six bottles** of wine supplied for the tasting (customizable to your preferences).  \n  * Educational commentary about Napa Valley and the Jessup Cellars winery.  \n\nThis makes the Petit Tasting the ideal choice for a small dinner with friends.",
+      "retrieved_context": [
+        {
+          "page_content": "Ifyouwishtoenjoyapersonalized experienceinyourhomeorbusiness,ourWineEducatorwilltravelto\nyourhomeorbusinessoreventandhostatastingforyourfriends&colleagues!And…It'scomplimentary\nonceeveryonepurchases3to4bottles.Navigatetohttps://jessupcellars.com/in-home-wine-tastings/to\nlearnmoreandscheduleyourprivatetastingexperiencewithyourfriends,familyorcolleagues.\nThroughouttheyearourpassionateeducator,Adrienne,travelsnationwidecraftingexceptionalJessup\nCellarsExperiences.ForgetaboutcoordinatingawholetriptoNapaValley–ourtastingroomisnowin\nyourdiningroom.SomeexamplesofourcurrentWineonLocationtastingexperiences:\nPETITTASTING\nAperfectwaytoelevateadinnerwithfriends!ThePetitTastingisidealforintimategroupsofupto12\nguests.Ledbyoneofourwineeducators,guestswilltastethroughsixwinesfromourportfoliowhile\nlearningaboutNapaValleyandourwinery.Sixbottlesofwineareprovidedforthetasting,whichcanbe\ncustomizedtoyourpreference.Members,thereisaminimumpurchaseanda$700refundableBooking",
+          "metadata": {
+            "page": 7.0
+          }
+        },
+        {
+          "page_content": "Ifyouwishtoenjoyapersonalized experienceinyourhomeorbusiness,ourWineEducatorwilltravelto\nyourhomeorbusinessoreventandhostatastingforyourfriends&colleagues!And…It'scomplimentar\nonceeveryonepurchases3to4bottles.Navigatetohttps://jessupcellars.com/in-home-wine-tastings/t\nlearnmoreandscheduleyourprivatetastingexperiencewithyourfriends,familyorcolleagues.\nThroughouttheyearourpassionateeducator,Adrienne,travelsnationwidecraftingexceptionalJessup\nCellarsExperiences.ForgetaboutcoordinatingawholetriptoNapaValley–ourtastingroomisnowin\nyourdiningroom.SomeexamplesofourcurrentWineonLocationtastingexperiences:\nPETITTASTING\nguests.Ledbyoneofourwineeducators,guestswilltastethroughsixwinesfromourportfoliowhil\nlearningaboutNapaValleyandourwinery.Sixbottlesofwineareprovidedforthetasting,whichcanb\ncustomizedtoyourpreference.Members,thereisaminimumpurchaseanda$700refundableBookin\nfee.Non-members,thereisarefundable$1600Eventfee.\nRANDTASTING",
+          "metadata": {
+            "page": 7.0
+          }
+        },
+        {
+          "page_content": "customizedtoyourpreference.Members,thereisaminimumpurchaseanda$700refundableBookin\nfee.Non-members,thereisarefundable$1600Eventfee.\nRANDTASTING\ncomeswith12bottlesfortheexperience.Dependingonthestyleofyourevent,wecantaste6or4\ndifferentwines.Members,thereisaminimumpurchaseanda$350refundableBookingfee.\nNon-members,thereisarefundable$2200Eventfee.\nSOIRÉETASTING\nIdealfortastingsatcountryclubs,largegroups,orjustabigcelebration!Allowoneofourwineeducators\ntohelpyoucustomizeyourperfectevent.Ourportfolioofwineprovidesmultipleoptionsdependingon\nfoodpairings,occasion,andsetting.Wewillprovide4to5eachoffourdifferentwinesofyourselection\nforthetasting.Members,thereisaminimumpurchaseanda$350refundableBookingfee.\nNon-members,thereisarefundable$2800Eventfee.\n3differentmembershipoptions,providingflexiblequantitiesandchoicesofwineswithnomemberfees\nOption1is'TastingClub'membershipwhichdelivers3bottlesofwinecuratedbyourteamfourtimesper",
+          "metadata": {
+            "page": 7.0
+          }
+        },
+        {
+          "page_content": "learningaboutNapaValleyandourwinery.Sixbottlesofwineareprovidedforthetasting,whichcanbe\ncustomizedtoyourpreference.Members,thereisaminimumpurchaseanda$700refundableBooking\nfee.Non-members,thereisarefundable$1600Eventfee.\nRANDTASTING\nOurmostpopulartastingovertheyearsthatfitsanysetting!Aversatileexperience,theGrandTasting\ncomeswith12bottlesfortheexperience.Dependingonthestyleofyourevent,wecantaste6or4\ndifferentwines.Members,thereisaminimumpurchaseanda$350refundableBookingfee.\nNon-members,thereisarefundable$2200Eventfee.\nSOIRÉETASTING\nIdealfortastingsatcountryclubs,largegroups,orjustabigcelebration!Allowoneofourwineeducators\ntohelpyoucustomizeyourperfectevent.Ourportfolioofwineprovidesmultipleoptionsdependingon\nfoodpairings,occasion,andsetting.Wewillprovide4to5eachoffourdifferentwinesofyourselection\nforthetasting.Members,thereisaminimumpurchaseanda$350refundableBookingfee.\nNon-members,thereisarefundable$2800Eventfee.\nWine Club Memberships",
+          "metadata": {
+            "page": 7.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The answer correctly identifies the Petit Tasting, states it is for up to 12 guests, and lists the six wines, wine educator, Napa Valley/winery information, and six bottles, matching the expected answer."
+    },
+    {
+      "id": "R3",
+      "category": "reasoning",
+      "question": "What are the three Jessup Cellars wine club options, and how frequently does each ship wine?",
+      "expected_answer": "The Tasting Club ships 3 bottles four times per year. My Jessup Cellar 6 ships 6 bottles twice per year. My Jessup Cellar 12 ships 12 bottles twice per year.",
+      "answer": "**Jessup Cellars wine‑club options**\n\n| Club | What you receive | Shipping frequency |\n|------|------------------|--------------------|\n| **Tasting Club** | 3 bottles per shipment, curated by the Jessup Cellars team | **Four shipments per year** (quarter‑yearly) |\n| **My Jessup Cellar 6** | 6 bottles per shipment | **Two shipments per year** – in **April and September** |\n| **My Jessup Cellar 12** | 12 bottles per shipment (delivered in two shipments) | **Two shipments per year** – also in **April and September** |\n\nSo the three membership options are the Tasting Club (quarterly deliveries), the My Jessup Cellar 6 (semi‑annual deliveries), and the My Jessup Cellar 12 (semi‑annual deliveries).",
+      "retrieved_context": [
+        {
+          "page_content": "yourwinesatourYountvilletastingroom.Theaveragecostofeachshipmentisapproximately$200plus\nshippingwhichvariesbyregionandshippingmethod.\nOption2is'MyJessupCellar6'membershipwhichdelivers6bottlestwiceperyearinApriland\nSeptemberandaddsthebenefitofchoicetotheprogram.Youmaychooseyourwinesinadvanceand\ndefinethecostbasedonyourselections.ThetypicalJessupCellars6costisabout$400twiceperyear\nplusshippingwhichvariesbyregionandshippingmethod.\nOption3is'MyJessupCellar12'whichincludes12bottlesofwinetwiceperyear,alsoinApriland\nSeptemberwithanaveragecostpershipmentof$800,andofcourseyoualwayshavetheoptiontopick\nupyourwinesifyouareinthearea.TheMyJessup12membersalsoreceive$20flatrateshipping\nanywhereinthelower48states.\nAllofourwineclubsofferthebenefitsofnotonlyreceivinga15%discountonALLwinepurchasesand\nre-orders,butalsofreetastingsacoupleoftimesperyearwithupto4guestsinourYountvilleTasting\nGallery.Wealsooffera$25giftcardifyourguestsbecomememberswhileenjoyingatastingatour\nJessupCellarsTastingRoom&Gallery.",
+          "metadata": {
+            "page": 7.0
+          }
+        },
+        {
+          "page_content": "3differentmembershipoptions,providingflexiblequantitiesandchoicesofwineswithnomemberfees\nOption1is'TastingClub'membershipwhichdelivers3bottlesofwinecuratedbyourteamfourtimesper\nyearwhichmaybeshippedtoyourhomeorbusiness,oryoualwayshavetheoptiontocomepickup\nyourwinesatourYountvilletastingroom.Theaveragecostofeachshipmentisapproximately$200plus\nshippingwhichvariesbyregionandshippingmethod.\nOption2is'MyJessupCellar6'membershipwhichdelivers6bottlestwiceperyearinApriland\nSeptemberandaddsthebenefitofchoicetotheprogram.Youmaychooseyourwinesinadvanceand\ndefinethecostbasedonyourselections.ThetypicalJessupCellars6costisabout$400twiceperyea\nplusshippingwhichvariesbyregionandshippingmethod.\nSeptemberwithanaveragecostpershipmentof$800,andofcourseyoualwayshavetheoptiontopic\nupyourwinesifyouareinthearea.TheMyJessup12membersalsoreceive$20flatrateshipping\nanywhereinthelower48states.\nAllofourwineclubsofferthebenefitsofnotonlyreceivinga15%discountonALLwinepurchasesand",
+          "metadata": {
+            "page": 7.0
+          }
+        },
+        {
+          "page_content": "forthetasting.Members,thereisaminimumpurchaseanda$350refundableBookingfee.\nNon-members,thereisarefundable$2800Eventfee.\nWine Club Memberships\nAtJessupCellarsourClubMembersarefamily,wehopeyou’lljoinus!Ourwineclubsaretheperfect\nwaytostayconnectedwithJessupCellars.Withourthreewinecluboptionsyoucanchoosewhichbest\nfitsyousotherewillalwaysbeabottleofJessupinyourhomereadytoshare!Asamemberofourwine\nclubyouwillbethefirsttoknowaboutnewreleasesandwillreceiveinvitationsto“MembersOnly”special\nevents.Wearehappytoprovidea15%discountonallyourcurrentreleaseorders. JessupCellarsoffers\n3differentmembershipoptions,providingflexiblequantitiesandchoicesofwineswithnomemberfees:\nOption1is'TastingClub'membershipwhichdelivers3bottlesofwinecuratedbyourteamfourtimesper\nyearwhichmaybeshippedtoyourhomeorbusiness,oryoualwayshavetheoptiontocomepickup\nyourwinesatourYountvilletastingroom.Theaveragecostofeachshipmentisapproximately$200plus\nshippingwhichvariesbyregionandshippingmethod.",
+          "metadata": {
+            "page": 7.0
+          }
+        },
+        {
+          "page_content": "upyourwinesifyouareinthearea.TheMyJessup12membersalsoreceive$20flatrateshipping\nanywhereinthelower48states.\nAllofourwineclubsofferthebenefitsofnotonlyreceivinga15%discountonALLwinepurchasesand\nGallery.Wealsooffera$25giftcardifyourguestsbecomememberswhileenjoyingatastingatou\nJessupCellarsTastingRoom&Gallery.",
+          "metadata": {
+            "page": 7.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The answer lists all three club options and correctly states the number of bottles and shipping frequency for each, matching the expected information."
+    },
+    {
+      "id": "R4",
+      "category": "reasoning",
+      "question": "How does Jessup Cellars combine wine and art as part of its customer experience?",
+      "expected_answer": "Jessup Cellars combines wine tasting with a curated art gallery featuring rotating regional and national artists, including resident artist Jermaine Danté. It also hosts Art House Sessions and an Art House Short Film Series.",
+      "answer": "Jessup Cellars weaves wine and visual art together by turning its tasting room into an actual art gallery.  Guests can:\n\n* **Sip wine amid curated artwork** – the tasting room features a spacious gallery where rotating installations by regional and national artists are on view.  Whether they sit at the wine bar or at a sit‑down tasting, patrons are surrounded by the art.\n\n* **Experience a resident artist** – the gallery is led by resident artist Jermaine Danté, whose bold, wine‑themed paintings are displayed in large formats.  Visitors can view (and even purchase) his works while enjoying a glass.\n\n* **Participate in art‑focused events** – Jessup Cellars hosts “ArtHouse Sessions” (summer music series) and an “ArtHouse Short‑Film Series,” as well as other interactive experiences that blend tasting with cultural programming.\n\n* **Enjoy exclusive, member‑only offerings** – wine club members receive access to limited‑release wines and private events that are set in the same art‑filled space, reinforcing the “wine‑and‑art” atmosphere.\n\nIn short, the winery’s hospitality model treats wine tasting as an art experience: the gallery is both a visual showcase and a tasting venue, and its events deliberately pair wine with music, film and curated exhibitions.",
+      "retrieved_context": [
+        {
+          "page_content": "FoundedbyDanandBeckyBlue,RoyandCheriEisiminger,VanceandJanaThompson,JimandKelly\nMazzo,KerryandCindiSolomon,andEricandMarleenDonnenfeld,theirmissionistocreateandshare\nlife-enrichingexperiencesfortheirmembersandguests,whilealsogivingbacktothecommunitythrough\nthesupportofthearts.\nTHEARTOFHOSPITALITY\nGuestsatJessupCellarsmaychoosetotasteatitswinebarorrelaxwithsit-down,hostedtastingsinthe\nwinery’sspaciousgalleryamongcuratedart,whichfeaturesrotatinginstallationsbycelebratedregional\nandnationalartists.Thewineryalsospecializesinhostinginteractiveexperienceswithafocusonthearts.\nHighlightsincludeitsArtHouseSessionssummermusicseriesandArtHouseShortFilmSeries.\nAlloftheabove,alongwithexclusiveaccesstolimitedreleasewinesandmember-onlyevents,makes\nJessupCellarswineclubmembershiponeofthebestexperiencesinwine–bothintheNapaValley,and\nwhengueststravelhometosharegreatwineandfoodwithfriendsandfamily.Fortheownersandstaff,",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "snacksforyourchildren.OurfineartismeticulouslycuratedbyourleadartistJermaineDantewho\nexhibitshiscolorfulcreationsinlargeformatsinourspaciousgallerywhereyoucantakein,ortakehome\ntheinspiringartwhileimbibingyourfavoriteJessupwines.\nANDWELCOMEDATJESSUPCELLARS.\nLocatedjustablocknorthfromthefamedTheFrenchLaundryinthequaintvillageofYountville,ou\nwinesareavailableexclusivelythroughourTastingRoomGalleryandwebsite.\nMazzo,KerryandCindiSolomon,andEricandMarleenDonnenfeld,theirmissionistocreateandshare\nlife-enrichingexperiencesfortheirmembersandguests,whilealsogivingbacktothecommunitythrough\nthesupportofthearts.\nTHEARTOFHOSPITALITY\nGuestsatJessupCellarsmaychoosetotasteatitswinebarorrelaxwithsit-down,hostedtastingsinthe\nwinery’sspaciousgalleryamongcuratedart,whichfeaturesrotatinginstallationsbycelebratedregional\nandnationalartists.Thewineryalsospecializesinhostinginteractiveexperienceswithafocusonthearts\nHighlightsincludeitsArtHouseSessionssummermusicseriesandArtHouseShortFilmSeries.",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "Jessup Cellars Corpus\nJessup Cellars Information\nJessupCellarshasacasualandinvitingatmosphereandwasthefirsttastingroomopenedinYountville\nin2003.Youhavetheoptionofsittinginsideourstunningartgalleryoryoumaychoosetoenjoythepatio\nwithgiantumbrellas.Wealsohavespaceavailableforprivategroupsandspecialaccommodationsand\nsnacksforyourchildren.OurfineartismeticulouslycuratedbyourleadartistJermaineDantewho\nexhibitshiscolorfulcreationsinlargeformatsinourspaciousgallerywhereyoucantakein,ortakehome\ntheinspiringartwhileimbibingyourfavoriteJessupwines.\nBOTHSEASONEDWINELOVERS,ANDTHOSEJUSTLEARNINGABOUTWINE,AREEMBRACED\nANDWELCOMEDATJESSUPCELLARS.\nLocatedjustablocknorthfromthefamedTheFrenchLaundryinthequaintvillageofYountville,our\nwinesareavailableexclusivelythroughourTastingRoomGalleryandwebsite.\nFoundedbyDanandBeckyBlue,RoyandCheriEisiminger,VanceandJanaThompson,JimandKelly\nMazzo,KerryandCindiSolomon,andEricandMarleenDonnenfeld,theirmissionistocreateandshare",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "JessupCellarswineclubmembershiponeofthebestexperiencesinwine–bothintheNapaValley,and\nwhengueststravelhometosharegreatwineandfoodwithfriendsandfamily.Fortheownersandstaff,\nit’sallaboutcreatingacommunitytosharetheirloveofwine,thearts,andeverythingthatmakesthe\nNapaValleysospecial.\nCURRENTGALLERYFEATURE\nJERMAINEDANTÉ\nMeetournewresidentartistattheJessupGallery,JermaineDanté.AsaresidentofNapaValley,\nJermaine’sartworkischaracterizedbyitsboldstrokesandevocativeimagery,servingasaperfect\nembodimentofthesymbioticrelationshipbetweenartandwine.Acertifiedsommelier,Jermainecaptures\ntheessenceofWineCountryinmanyofhispieces,infusingthemwithhisuniqueperspectiveandartistic\nflair.Comebytoseehisartondisplaythissummerandenjoyaglassofwineasyoustrollthroughthe\ngallery.\nJessupCellarsandTastingGalleryislocatedat6740WashingtonSt.attheNorthendofYountville\nacrossfromRHYountvilleandNorthBlockRestaurant.Weareopenfrom10AMto5:30PM7daysa",
+          "metadata": {
+            "page": 1.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The answer mentions the wine tasting gallery with rotating regional and national artists, resident artist Jermaine Danté, and the Art House Sessions and Art House Short Film Series, matching all key points of the expected answer."
+    },
+    {
+      "id": "R5",
+      "category": "reasoning",
+      "question": "A customer wants a wine that is predominantly Cabernet Sauvignon but includes several other varietals. Which 2019 wine fits this description, and what is its composition?",
+      "expected_answer": "The 2019 Table for Four Cabernet Blend fits this description. It contains 61.8% Cabernet Sauvignon, 26.5% Cabernet Franc, 4.2% Petite Verdot, 3.5% Petite Sirah, 2.7% Malbec, and 1.1% Merlot.",
+      "answer": "**Wine:** Jessup Cellars 2019 Cabernet Sauvignon  \n\n**Why it matches the request:** It is a blend that is *predominantly* Cabernet Sauvignon while also containing several other varietals.\n\n**Composition (as stated in the retrieved context):**  \n\n- **Cabernet Sauvignon:** ≈ 90 %  \n- **Petite Sirah:** ≈ 5 %  \n- **Merlot:** ≈ 3 %  \n- **Cabernet Franc:** ≈ 2.1 %  \n\nThe winemaker’s “Art of the Blend” starts with 90 % Napa‑Valley Cabernet Sauvignon fruit, then adds the smaller percentages of Petite Sirah, Merlot, and Cabernet Franc. This makes it the 2019 wine that fits a customer’s desire for a Cabernet‑focused blend with multiple other grapes.",
+      "retrieved_context": [
+        {
+          "page_content": "CabernetFranc,withMerlotfiguringheavilyintotheblendat24%fromourTruchardVineyardfruit.The\t\t\t\t\t\t\t\t\t\t\t\nwineisfinishedwith2%eachofPetiteSirah,PetiteVerdotandMalbec,allfromtheNapaValley.Jessup\t\t\t\t\t\t\t\t\t\t\t\nCellars'2019\"Juel\"Blendisaharmoniouscompositionofvarietals,atestamenttotheartistryof\t\t\t\t\t\t\t\t\t\t\t\nwinemaking.Thiswineisacelebrationofbalance,withitsblendofdarkfruit,bakingspices,andearthy",
+          "metadata": {
+            "page": 4.0
+          }
+        },
+        {
+          "page_content": "elementscomingtogetherinperfectunison.Approachableyetage-worthy,\"Juel\"isasensoryjourney\t\t\t\nthatinvitesyoutosavortheintricaciesofeachsip.Pouraglass,andletthesymphonyunfold.The\t\t\t\nnon-memberpriceforJuelis$115.Juelisagedin70%newFrenchoakfor22monthswith14.9%alcohol\t\t\t\nbyvolume.ThePHis3.65.\t\t\t\n2019TABLEFORFOURCABERNETBLEND\t\t\t\n$115.00\t\t\t\n\"TableforFour\"isourcelebratedandsignatureCabernetSauvignon-basedblendandisanxiously\t\t\t\nanticipatedbybothguestsandstaffalikeeachyearuponitsrelease.Our2019vintagecarriesonthe\t\t\t\ntraditionofcomprisingawineofdistinctionanddepth,withlayersofcomplexitytotitillateanywine\t\t\t\nenthusiast.Withnotesofripeblackcherryandblackberryonthenose,thelusciousfruitisaccompanie\t\t\td\nbywarmandinvitingaromasofbakingspiceanddarkcacao.Anintriguinglayerofsubtlefloraland\t\t\t\nherbalundertonesenhancesthecomplexity,withviolet,anise,andahintofspearmintaddingnuancet\t\t\to\nthisincredibleprofile.Thepalatesingswithharmonyasthefruitandspicecomponentsinterplay,and",
+          "metadata": {
+            "page": 5.0
+          }
+        },
+        {
+          "page_content": "the'ArtoftheBlend'byourwinemakers.The2019Merlotis80%Merlot,16.5%CabernetSauvignon\nfromtheChilesValleyAVAinNortheasternNapaCountyandasplashofourPetiteSirah(3.5%)fromthe\nsamelocationfinishesthewineperfectly.Ourmerlotisagedfor22monthsin40%newAmerican/French\noakwithanalcoholcontentof15.1%withaPHlevelof3.55.Thiswinedrinkswellnow,however,wil\ncontinuetoagegracefullyforanother5-8years. WerecommendtryingthisdeliciousMerlotwithroasted\nchickenandvegetablesorbeefbourguignon.Non-memberscanpickupour2019NapaValleyMerlotfor\n$70.\nofferingour2019CabernetSauvignonfor2024.Aswithmostofourredwines,ourwinemakersexercise\n'TheArtoftheBlend'bystartingwith90%NapaValleyfruitfromtheChilesValleyAVAinNortheastern\nNapaCounty,thenblendin5%PetiteSirahfromthesameAVA,3%MerlotfromourTruchardVineyardin\ntheLosCarnerosregion,thenfinishitwith2.1%CabernetFranc,whichistheparentgrapeofboth\nCabernetSauvignonandMerlot,oftenusedinblendedwines.CabernetFrancoriginatedintheBordeaux",
+          "metadata": {
+            "page": 4.0
+          }
+        },
+        {
+          "page_content": "'TheArtoftheBlend'bystartingwith90%NapaValleyfruitfromtheChilesValleyAVAinNortheastern\nNapaCounty,thenblendin5%PetiteSirahfromthesameAVA,3%MerlotfromourTruchardVineyardin\ntheLosCarnerosregion,thenfinishitwith2.1%CabernetFranc,whichistheparentgrapeofboth\nCabernetSauvignonandMerlot,oftenusedinblendedwines.CabernetFrancoriginatedintheBordeaux\nregionofFranceandtohonorthatprovenance,weageour2019JessupCellarsCabernetSauvignonin\n80%newFrenchoakfor22months.Alcoholcontentinthisvarietalis14.9%withaPHof3.65.Youcan\npurchaseour2019Cabfor$90.Thepalateofthewinematchesthearomaticsprovidingjuicyfruitflavors,\nrichtanninsandalongfinish. Thiswinedrinkswellnowhoweverwillagegracefullyforthenext5-8\nyears.EnjoythisCabernetSauvignonwithaqualitycutofbeeforanydishthathasanicesmoky/fatty/or\ncharredquality.\nJessupCellarshasalsocreateda2018AlexanderValleyCabernetSauvignonwith96.5%Cabernet\ngrapes,finishedwith3.5%NapaValleyPetiteSirahfruit.Thiswinehasaverydifferentnoseandmouth",
+          "metadata": {
+            "page": 4.0
+          }
+        }
+      ],
+      "answer_verdict": "INCORRECT",
+      "answer_reason": "The generated answer identifies a different 2019 wine (Jessup Cellars) and provides a composition that does not match the expected Table for Four Cabernet Blend percentages."
+    },
+    {
+      "id": "R6",
+      "category": "reasoning",
+      "question": "How does the Jessup Classic Tasting differ from the Light Flight in terms of number of wines, price, and purchase requirement?",
+      "expected_answer": "The Light Flight includes 3 wines and costs $30 per person; the tasting fee is waived for wine purchases over $50. The Classic Tasting includes 5 wines and costs $60 per person; the fee is waived with the purchase of two or more bottles per person.",
+      "answer": "**Jessup Classic Tasting vs. Light Flight**\n\n| Aspect | Jessup Classic Tasting | Light Flight |\n|--------|------------------------|--------------|\n| **Number of wines** | 5‑wine flight (paired with cheeses, almonds and a chocolate surprise) | 3‑wine flight (starts with a Chardonnay and includes two of the most‑requested reds) |\n| **Price per person** | $60 | $30 |\n| **Purchase requirement to have the tasting fee waived** | The $60 fee is waived **when you purchase two or more bottles of wine per person** | The $30 fee is waived **when you make a wine purchase of $50 or more** (e.g., a single bottle priced over $50) |\n\nSo, the Classic experience offers a larger selection of wines at a higher price but requires buying at least two bottles, while the Light Flight is a smaller, lower‑cost tasting that’s free if you spend $50 or more on wine.",
+      "retrieved_context": [
+        {
+          "page_content": "eachtastingfeewillbewaivedforeachpurchaseofwineover$50.Walk-insarewelcomeanytimeforour\nLightFlightexperience.OurmostpopulartastingexperienceistheJessupClassicTasting,which\nincludesaflightof5winesperfectlypairedwithcheeses,accompaniedbypalatecleansingMarcona\nalmondsandachocolatesurprise.TheClassicTastingis$60perperson,butiswaivedwithapurchase\noftwoormorebottlesofwineperperson.\nWineTastingInYourDiningRoom! JessupCellarsoffersavirtualtastingexperienceforthosewhomay\nnotbeabletotraveltotheNapaValleyandenjoyourtastingroomandgallery.Let’sgettogetherfora\nvirtualwinetasting!Oneofourfantasticwineeducatorswillguideyouthroughafunandeducational\ntastingexperiencefeaturinganynumberofwinesthatyouwouldlikeandcustomizedtoyou.Youare\nwelcometoinviteyourfriends,family,andco-workerstojointhefunaswell!Themore,themerrier.We’ll\nuseZoom,whichallowsustohostanygroupsizefromthecomfortofyourownhomes.“Thisisthe\nRolls-Royceofvirtualtastings”–ChowhoundMagazine,May10,2020.FUNWINENIGHTADD-ON!",
+          "metadata": {
+            "page": 6.0
+          }
+        },
+        {
+          "page_content": "eachtastingfeewillbewaivedforeachpurchaseofwineover$50.Walk-insarewelcomeanytimeforour\nLightFlightexperience.OurmostpopulartastingexperienceistheJessupClassicTasting,which\nalmondsandachocolatesurprise.TheClassicTastingis$60perperson,butiswaivedwithapurchase\noftwoormorebottlesofwineperperson.\nWineTastingInYourDiningRoom! JessupCellarsoffersavirtualtastingexperienceforthosewhomay\nnotbeabletotraveltotheNapaValleyandenjoyourtastingroomandgallery.Let’sgettogetherfora\nvirtualwinetasting!Oneofourfantasticwineeducatorswillguideyouthroughafunandeducational\ntastingexperiencefeaturinganynumberofwinesthatyouwouldlikeandcustomizedtoyou.Youare\nwelcometoinviteyourfriends,family,andco-workerstojointhefunaswell!Themore,themerrier.We’l\nuseZoom,whichallowsustohostanygroupsizefromthecomfortofyourownhomes.“Thisisthe\nRolls-Royceofvirtualtastings”–ChowhoundMagazine,May10,2020.FUNWINENIGHTADD-ON!\nSelectyourfavoritewinestotastewithfriends&familyandconnectvirtuallyforaneducationalwine",
+          "metadata": {
+            "page": 6.0
+          }
+        },
+        {
+          "page_content": "forthetasting.Members,thereisaminimumpurchaseanda$350refundableBookingfee.\nNon-members,thereisarefundable$2800Eventfee.\nWine Club Memberships\nAtJessupCellarsourClubMembersarefamily,wehopeyou’lljoinus!Ourwineclubsaretheperfect\nwaytostayconnectedwithJessupCellars.Withourthreewinecluboptionsyoucanchoosewhichbest\nfitsyousotherewillalwaysbeabottleofJessupinyourhomereadytoshare!Asamemberofourwine\nclubyouwillbethefirsttoknowaboutnewreleasesandwillreceiveinvitationsto“MembersOnly”special\nevents.Wearehappytoprovidea15%discountonallyourcurrentreleaseorders. JessupCellarsoffers\n3differentmembershipoptions,providingflexiblequantitiesandchoicesofwineswithnomemberfees:\nOption1is'TastingClub'membershipwhichdelivers3bottlesofwinecuratedbyourteamfourtimesper\nyearwhichmaybeshippedtoyourhomeorbusiness,oryoualwayshavetheoptiontocomepickup\nyourwinesatourYountvilletastingroom.Theaveragecostofeachshipmentisapproximately$200plus\nshippingwhichvariesbyregionandshippingmethod.",
+          "metadata": {
+            "page": 7.0
+          }
+        },
+        {
+          "page_content": "characterofthesoleraremainsconsistentduetotheblendingofolderandyoungerwines.\nPerpetualProcess:TheSolerasystemisdesignedtobeperpetual,withnewwinecontinuouslyaddedat\nthetopandmaturedwinedrawnfromthebottomforbottling.Thisallowsproducerstomaintaina\nconsistentproductwhilealsoensuringthatsomeoftheoriginalwineremainsinthesolerastack,\nsometimesformanyyearsorevendecades.Overall,theSoleramethodisameticulousand\ntime-honoredprocessthatresultsincomplex,well-balanceddessertwineswithlayersofflavorand\naroma.\nTasting Experiences\nJessupCellarsoffersmanyexperiencesforenjoyingourwines.Youmayenjoywinebytheglassorby\nthebottle,butmostpopularareourtastingflights.OurLightFlightincludes3wines,startingwitheither\nour2022Chardonnayandincludestwoofourmostrequestedredwines.Thecostperpersonis$30,and\neachtastingfeewillbewaivedforeachpurchaseofwineover$50.Walk-insarewelcomeanytimeforour\nLightFlightexperience.OurmostpopulartastingexperienceistheJessupClassicTasting,which",
+          "metadata": {
+            "page": 6.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The generated answer correctly states the number of wines, prices, and purchase requirements for both the Classic Tasting and Light Flight, matching the expected answer without contradictions."
+    },
+    {
+      "id": "R7",
+      "category": "reasoning",
+      "question": "Why might Jessup Cellars' 2023 Sauvignon Blanc be difficult for a visitor to purchase during a visit?",
+      "expected_answer": "It has limited supply and sells out quickly, so visitors are advised to call ahead to check availability.",
+      "answer": "The 2023 Sauvignon Blanc is produced in a very limited quantity. According to the retrieved context, “due to its limited supply this wine sells out quickly each year, so be sure to give us a call before visiting our tasting room to check availability.” Because it often runs out, a visitor may find it difficult to purchase the wine on‑site unless they confirm that bottles are still in stock ahead of time.",
+      "retrieved_context": [
+        {
+          "page_content": "sourcedfromNorthCoastvinesoutsideoftheNapaValley.Thetropicalnatureofour2023Sauvignon\nBlancisdecidedlydifferentthanthetypicalSauvignonBlancgrownintheValleyandelsewhereinthe\nWorld.Duetoitslimitedsupplythiswinesellsoutquicklyeachyearsobesuretogiveusacallbefore\nvisitingourtastingroomtocheckavailability.\nTheJessupCellars2022Chardonnayisawhitewinethatcomesacrossasverywellbalancedduetothe\nagingbeingdoneinacombinationof40%newAmericanand60%neutralAmericanOak.Thisbrings\nhintsofoaktothewinewhilealsoofferingaslightlycreamymouthfeelwithoutbeingabutterbomb.Our\nNapaValleyChardonnayisamemberfavoritewhilethenon-memberpriceof$55isappreciatedby\nenthusiastsofthisqualitywinecraftedbyRobLloyd.Thealcoholcontentis14.8%whilethePHis3.4.",
+          "metadata": {
+            "page": 2.0
+          }
+        },
+        {
+          "page_content": "combineswithanidealterroirtocreatethefoundationforawell-balancedChardonnayagedfor10\nsourcedfromNorthCoastvinesoutsideoftheNapaValley.Thetropicalnatureofour2023Sauvignon\nBlancisdecidedlydifferentthanthetypicalSauvignonBlancgrownintheValleyandelsewhereinthe\nWorld.Duetoitslimitedsupplythiswinesellsoutquicklyeachyearsobesuretogiveusacallbefore\nvisitingourtastingroomtocheckavailability.\nTheJessupCellars2022Chardonnayisawhitewinethatcomesacrossasverywellbalancedduetothe\nagingbeingdoneinacombinationof40%newAmericanand60%neutralAmericanOak.Thisbrings\nNapaValleyChardonnayisamemberfavoritewhilethenon-memberpriceof$55isappreciatedby\nenthusiastsofthisqualitywinecraftedbyRobLloyd.Thealcoholcontentis14.8%whilethePHis3.4",
+          "metadata": {
+            "page": 2.0
+          }
+        },
+        {
+          "page_content": "Oursoldout2023100%SauvignonBlancvintageissourcedfromNorthCoastvineyardsagedin100%\nstainlesssteelbarrelswhichistypicalforthisvarietal.Thestainlesssteelsealsouttheoxygenandseals\nintheflavorsofthefruitandisahearty15.1%alcoholcontentwithaPHof3.3.Whileit'snoseand\nflavorshintattropicaldelights,wewouldnotconsiderthiswinetobetoofruitforward,butratherfruit\nbalancedwithhintsofpineappleandmango.OurSauvignonBlancistheperfecthottubwineorforthos\nForstarters,itcomplementstheflavorsofGrilledPrawnCocktailandCeviche,accentuatingtheseafood\ndelicatetasteandbrighteningthecitruselementsinthedishes.Thewine'sfruityandfloralnotes\nMexicandish.Lastly,thewine'shighacidityandfruit-forwardcharacterprovideadelightfulcontrasttoth\ncreamysweetnessofaPeach&Burratasalad,creatingaharmoniousandmemorablepairing.\nRed Wine\nJessupCellarsoffersanumberofredwinesacrossarangeofvarietals,fromPinotNoirandMerlot\nWines.Wealsooffer100%Zinfandelfrom134yearoldvinesintheMendocinoregionandourown100",
+          "metadata": {
+            "page": 3.0
+          }
+        },
+        {
+          "page_content": "characterofthesoleraremainsconsistentduetotheblendingofolderandyoungerwines.\nPerpetualProcess:TheSolerasystemisdesignedtobeperpetual,withnewwinecontinuouslyaddedat\nthetopandmaturedwinedrawnfromthebottomforbottling.Thisallowsproducerstomaintaina\nconsistentproductwhilealsoensuringthatsomeoftheoriginalwineremainsinthesolerastack,\nsometimesformanyyearsorevendecades.Overall,theSoleramethodisameticulousand\ntime-honoredprocessthatresultsincomplex,well-balanceddessertwineswithlayersofflavorand\naroma.\nTasting Experiences\nJessupCellarsoffersmanyexperiencesforenjoyingourwines.Youmayenjoywinebytheglassorby\nthebottle,butmostpopularareourtastingflights.OurLightFlightincludes3wines,startingwitheither\nour2022Chardonnayandincludestwoofourmostrequestedredwines.Thecostperpersonis$30,and\neachtastingfeewillbewaivedforeachpurchaseofwineover$50.Walk-insarewelcomeanytimeforour\nLightFlightexperience.OurmostpopulartastingexperienceistheJessupClassicTasting,which",
+          "metadata": {
+            "page": 6.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The answer states the wine has limited supply, sells out quickly, and advises callers to check availability before visiting, matching the expected answer."
+    },
+    {
+      "id": "U1",
+      "category": "unanswerable",
+      "question": "What is Jessup Cellars' annual revenue?",
+      "expected_answer": "The corpus does not provide this information.",
+      "answer": "I don’t know.",
+      "retrieved_context": [
+        {
+          "page_content": "Jessup Cellars Corpus\nJessup Cellars Information\nJessupCellarshasacasualandinvitingatmosphereandwasthefirsttastingroomopenedinYountville\nin2003.Youhavetheoptionofsittinginsideourstunningartgalleryoryoumaychoosetoenjoythepatio\nwithgiantumbrellas.Wealsohavespaceavailableforprivategroupsandspecialaccommodationsand\nsnacksforyourchildren.OurfineartismeticulouslycuratedbyourleadartistJermaineDantewho\nexhibitshiscolorfulcreationsinlargeformatsinourspaciousgallerywhereyoucantakein,ortakehome\ntheinspiringartwhileimbibingyourfavoriteJessupwines.\nBOTHSEASONEDWINELOVERS,ANDTHOSEJUSTLEARNINGABOUTWINE,AREEMBRACED\nANDWELCOMEDATJESSUPCELLARS.\nLocatedjustablocknorthfromthefamedTheFrenchLaundryinthequaintvillageofYountville,our\nwinesareavailableexclusivelythroughourTastingRoomGalleryandwebsite.\nFoundedbyDanandBeckyBlue,RoyandCheriEisiminger,VanceandJanaThompson,JimandKelly\nMazzo,KerryandCindiSolomon,andEricandMarleenDonnenfeld,theirmissionistocreateandshare",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "forthetasting.Members,thereisaminimumpurchaseanda$350refundableBookingfee.\nNon-members,thereisarefundable$2800Eventfee.\nWine Club Memberships\nAtJessupCellarsourClubMembersarefamily,wehopeyou’lljoinus!Ourwineclubsaretheperfect\nwaytostayconnectedwithJessupCellars.Withourthreewinecluboptionsyoucanchoosewhichbest\nfitsyousotherewillalwaysbeabottleofJessupinyourhomereadytoshare!Asamemberofourwine\nclubyouwillbethefirsttoknowaboutnewreleasesandwillreceiveinvitationsto“MembersOnly”special\nevents.Wearehappytoprovidea15%discountonallyourcurrentreleaseorders. JessupCellarsoffers\n3differentmembershipoptions,providingflexiblequantitiesandchoicesofwineswithnomemberfees:\nOption1is'TastingClub'membershipwhichdelivers3bottlesofwinecuratedbyourteamfourtimesper\nyearwhichmaybeshippedtoyourhomeorbusiness,oryoualwayshavetheoptiontocomepickup\nyourwinesatourYountvilletastingroom.Theaveragecostofeachshipmentisapproximately$200plus\nshippingwhichvariesbyregionandshippingmethod.",
+          "metadata": {
+            "page": 7.0
+          }
+        },
+        {
+          "page_content": "characterofthesoleraremainsconsistentduetotheblendingofolderandyoungerwines.\nPerpetualProcess:TheSolerasystemisdesignedtobeperpetual,withnewwinecontinuouslyaddedat\nthetopandmaturedwinedrawnfromthebottomforbottling.Thisallowsproducerstomaintaina\nconsistentproductwhilealsoensuringthatsomeoftheoriginalwineremainsinthesolerastack,\nsometimesformanyyearsorevendecades.Overall,theSoleramethodisameticulousand\ntime-honoredprocessthatresultsincomplex,well-balanceddessertwineswithlayersofflavorand\naroma.\nTasting Experiences\nJessupCellarsoffersmanyexperiencesforenjoyingourwines.Youmayenjoywinebytheglassorby\nthebottle,butmostpopularareourtastingflights.OurLightFlightincludes3wines,startingwitheither\nour2022Chardonnayandincludestwoofourmostrequestedredwines.Thecostperpersonis$30,and\neachtastingfeewillbewaivedforeachpurchaseofwineover$50.Walk-insarewelcomeanytimeforour\nLightFlightexperience.OurmostpopulartastingexperienceistheJessupClassicTasting,which",
+          "metadata": {
+            "page": 6.0
+          }
+        },
+        {
+          "page_content": "vintage,buthasalsohelpedcurate'TheArtoftheBlend'withourstellarredwines.\nJessup Cellars Team\nVOTEDMOSTFRIENDLY&KNOWLEDGEABLESTAFF4YEARSINAROW!\nOverthepastseveralyears,JessupCellarshaswonnumerousawardsincludingCellarPass’‘Friendliest\n&MostKnowledgeableStaff’threeyearsinarow,NapaValleyLifemagazine’s‘BestWineClub’and,\nrecently,Yountville’s‘BusinessoftheYear’.\nhttps://jessupcellars.com/reviews/\nRobLloydConsultingWinemaker\nBIOGRAPHY\nHometown:AllofCalifornia\nFavoriteJessupWinePairing:CarnerosChardonnaywithfreshlycaughtMahi-Mahi\nAbout:Rob’sforayintowinestarteddirectlyaftergraduatingcollegewhenhecametoNapatoworkina\ntastingroomforthesummer–beforegettinga‘realjob’.Hebecamefascinatedwithwineandthescience\nofwinemakingandbegantolearneverythinghecouldabouttheprocess.\nWhileinterviewingforthat“realjob”,theintervieweraskedhimwhathehadbeendoingwithhistime\nsincegraduation.Afterspeakingpassionatelyandatlengthaboutwine,theinterviewersaid,“Youseem",
+          "metadata": {
+            "page": 2.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The generated answer states lack of knowledge, which aligns with the expected answer that the information is not provided."
+    },
+    {
+      "id": "U2",
+      "category": "unanswerable",
+      "question": "How many employees currently work at Jessup Cellars?",
+      "expected_answer": "The corpus does not provide this information.",
+      "answer": "I don’t know.",
+      "retrieved_context": [
+        {
+          "page_content": "vintage,buthasalsohelpedcurate'TheArtoftheBlend'withourstellarredwines.\nJessup Cellars Team\nVOTEDMOSTFRIENDLY&KNOWLEDGEABLESTAFF4YEARSINAROW!\nOverthepastseveralyears,JessupCellarshaswonnumerousawardsincludingCellarPass’‘Friendliest\n&MostKnowledgeableStaff’threeyearsinarow,NapaValleyLifemagazine’s‘BestWineClub’and,\nrecently,Yountville’s‘BusinessoftheYear’.\nhttps://jessupcellars.com/reviews/\nRobLloydConsultingWinemaker\nBIOGRAPHY\nHometown:AllofCalifornia\nFavoriteJessupWinePairing:CarnerosChardonnaywithfreshlycaughtMahi-Mahi\nAbout:Rob’sforayintowinestarteddirectlyaftergraduatingcollegewhenhecametoNapatoworkina\ntastingroomforthesummer–beforegettinga‘realjob’.Hebecamefascinatedwithwineandthescience\nofwinemakingandbegantolearneverythinghecouldabouttheprocess.\nWhileinterviewingforthat“realjob”,theintervieweraskedhimwhathehadbeendoingwithhistime\nsincegraduation.Afterspeakingpassionatelyandatlengthaboutwine,theinterviewersaid,“Youseem",
+          "metadata": {
+            "page": 2.0
+          }
+        },
+        {
+          "page_content": "vintage,buthasalsohelpedcurate'TheArtoftheBlend'withourstellarredwines.\t\t\t\t\t\n\t\t\t\t\t\nJessup Cellars Team\t\t\t\t\t\nVOTEDMOSTFRIENDLY&KNOWLEDGEABLESTAFF4YEARSINAROW!\t\t\t\t\t\nOverthepastseveralyears,JessupCellarshaswonnumerousawardsincludingCellarPass’‘Friendliest\t\t\t\t\t\n&MostKnowledgeableStaff’threeyearsinarow,NapaValleyLifemagazine’s‘BestWineClub’and,\t\t\t\t\t\nrecently,Yountville’s‘BusinessoftheYear’.\t\t\t\t\t\nhttps://jessupcellars.com/reviews/\t\t\t\t\t\nRobLloydConsultingWinemaker\nBIOGRAPHY\nHometown:AllofCalifornia\nFavoriteJessupWinePairing:CarnerosChardonnaywithfreshlycaughtMahi-Mah\ntastingroomforthesummer–beforegettinga‘realjob’.Hebecamefascinatedwithwineandthescienc\nofwinemakingandbegantolearneverythinghecouldabouttheprocess.\nWhileinterviewingforthat“realjob”,theintervieweraskedhimwhathehadbeendoingwithhistime\nformanyprestigiouswineriesincludingCakebread,Stag’sLeapWineCellars,andLaCrema.Robbegan\ncraftingJessupCellarsinthe2009seasonandtookthepositionofDirectorofWinemakingatJessup",
+          "metadata": {
+            "page": 2.0
+          }
+        },
+        {
+          "page_content": "Jessup Cellars Corpus\nJessup Cellars Information\nJessupCellarshasacasualandinvitingatmosphereandwasthefirsttastingroomopenedinYountville\nin2003.Youhavetheoptionofsittinginsideourstunningartgalleryoryoumaychoosetoenjoythepatio\nwithgiantumbrellas.Wealsohavespaceavailableforprivategroupsandspecialaccommodationsand\nsnacksforyourchildren.OurfineartismeticulouslycuratedbyourleadartistJermaineDantewho\nexhibitshiscolorfulcreationsinlargeformatsinourspaciousgallerywhereyoucantakein,ortakehome\ntheinspiringartwhileimbibingyourfavoriteJessupwines.\nBOTHSEASONEDWINELOVERS,ANDTHOSEJUSTLEARNINGABOUTWINE,AREEMBRACED\nANDWELCOMEDATJESSUPCELLARS.\nLocatedjustablocknorthfromthefamedTheFrenchLaundryinthequaintvillageofYountville,our\nwinesareavailableexclusivelythroughourTastingRoomGalleryandwebsite.\nFoundedbyDanandBeckyBlue,RoyandCheriEisiminger,VanceandJanaThompson,JimandKelly\nMazzo,KerryandCindiSolomon,andEricandMarleenDonnenfeld,theirmissionistocreateandshare",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "JessupCellarswelcomesyourwell-behaveddogsinsideoroutsideandwehaveglutenfreedogtreats\t\t\t\t\t\navailableaswellaswaterdishes.JessupCellarswinesarecarefullycraftedwiththehelpofour\t\t\t\t\t\nrenownedconsultingwinemakerRobLloydwhofamouslycraftedChardonnayforRombauer,LaCrema\t\t\t\t\t\nandCakebread.NotonlyhasRobcreatedoneofthebestChardonnaysintheNapaValleywithour2022",
+          "metadata": {
+            "page": 1.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The generated answer states lack of knowledge, matching the expected response that the information is not available."
+    },
+    {
+      "id": "U3",
+      "category": "unanswerable",
+      "question": "What is the exact average rating of Jessup Cellars on Google Reviews?",
+      "expected_answer": "The corpus does not provide this information.",
+      "answer": "I don’t know the exact average rating of Jessup Cellars on Google Reviews.",
+      "retrieved_context": [
+        {
+          "page_content": "gallery.\t\t\t\t\t\nJessupCellarsandTastingGalleryislocatedat6740WashingtonSt.attheNorthendofYountville\t\t\t\t\t\nacrossfromRHYountvilleandNorthBlockRestaurant.Weareopenfrom10AMto5:30PM7days\t\t\t\t\ta\nweekandcanbereachedat707.944.5620forreservationsandinformation.JessupCellarscanbefound\t\t\t\t\t\nathttps://jessupcellars.com/whereyoumayfinddirections,purchasewineormakereservationsfor\t\t\t\t\t\ntastingsatourYountvilletastingroom.Yountville,Californiaislocated9milesnorthofNapaand9miles\t\t\t\t\t\nsouthofSt.HelenainthecenteroftheNapaValley.YoucanreachYountvillebycarfromanywhereinthe\t\t\t\t\t\nNorthernCaliforniaBayAreainaboutanhour,whiletravelersfromtheSacramentoregionwilltakeabout\t\t\t\t\t\n1.5hours.TheareaisservedbymultipleairportsincludingSFO,Oakland,SacramentoandSantaRosa.\t\t\t\t\t\nJessupCellarswelcomesyourwell-behaveddogsinsideoroutsideandwehaveglutenfreedogtreats\t\t\t\t\t\navailableaswellaswaterdishes.JessupCellarswinesarecarefullycraftedwiththehelpofour",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "Jessup Cellars Corpus\nJessup Cellars Information\nJessupCellarshasacasualandinvitingatmosphereandwasthefirsttastingroomopenedinYountville\nin2003.Youhavetheoptionofsittinginsideourstunningartgalleryoryoumaychoosetoenjoythepatio\nwithgiantumbrellas.Wealsohavespaceavailableforprivategroupsandspecialaccommodationsand\nsnacksforyourchildren.OurfineartismeticulouslycuratedbyourleadartistJermaineDantewho\nexhibitshiscolorfulcreationsinlargeformatsinourspaciousgallerywhereyoucantakein,ortakehome\ntheinspiringartwhileimbibingyourfavoriteJessupwines.\nBOTHSEASONEDWINELOVERS,ANDTHOSEJUSTLEARNINGABOUTWINE,AREEMBRACED\nANDWELCOMEDATJESSUPCELLARS.\nLocatedjustablocknorthfromthefamedTheFrenchLaundryinthequaintvillageofYountville,our\nwinesareavailableexclusivelythroughourTastingRoomGalleryandwebsite.\nFoundedbyDanandBeckyBlue,RoyandCheriEisiminger,VanceandJanaThompson,JimandKelly\nMazzo,KerryandCindiSolomon,andEricandMarleenDonnenfeld,theirmissionistocreateandshare",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "vintage,buthasalsohelpedcurate'TheArtoftheBlend'withourstellarredwines.\nJessup Cellars Team\nVOTEDMOSTFRIENDLY&KNOWLEDGEABLESTAFF4YEARSINAROW!\nOverthepastseveralyears,JessupCellarshaswonnumerousawardsincludingCellarPass’‘Friendliest\n&MostKnowledgeableStaff’threeyearsinarow,NapaValleyLifemagazine’s‘BestWineClub’and,\nrecently,Yountville’s‘BusinessoftheYear’.\nhttps://jessupcellars.com/reviews/\nRobLloydConsultingWinemaker\nBIOGRAPHY\nHometown:AllofCalifornia\nFavoriteJessupWinePairing:CarnerosChardonnaywithfreshlycaughtMahi-Mahi\nAbout:Rob’sforayintowinestarteddirectlyaftergraduatingcollegewhenhecametoNapatoworkina\ntastingroomforthesummer–beforegettinga‘realjob’.Hebecamefascinatedwithwineandthescience\nofwinemakingandbegantolearneverythinghecouldabouttheprocess.\nWhileinterviewingforthat“realjob”,theintervieweraskedhimwhathehadbeendoingwithhistime\nsincegraduation.Afterspeakingpassionatelyandatlengthaboutwine,theinterviewersaid,“Youseem",
+          "metadata": {
+            "page": 2.0
+          }
+        },
+        {
+          "page_content": "vintage,buthasalsohelpedcurate'TheArtoftheBlend'withourstellarredwines.\t\t\t\t\t\n\t\t\t\t\t\nJessup Cellars Team\t\t\t\t\t\nVOTEDMOSTFRIENDLY&KNOWLEDGEABLESTAFF4YEARSINAROW!\t\t\t\t\t\nOverthepastseveralyears,JessupCellarshaswonnumerousawardsincludingCellarPass’‘Friendliest\t\t\t\t\t\n&MostKnowledgeableStaff’threeyearsinarow,NapaValleyLifemagazine’s‘BestWineClub’and,\t\t\t\t\t\nrecently,Yountville’s‘BusinessoftheYear’.\t\t\t\t\t\nhttps://jessupcellars.com/reviews/\t\t\t\t\t\nRobLloydConsultingWinemaker\nBIOGRAPHY\nHometown:AllofCalifornia\nFavoriteJessupWinePairing:CarnerosChardonnaywithfreshlycaughtMahi-Mah\ntastingroomforthesummer–beforegettinga‘realjob’.Hebecamefascinatedwithwineandthescienc\nofwinemakingandbegantolearneverythinghecouldabouttheprocess.\nWhileinterviewingforthat“realjob”,theintervieweraskedhimwhathehadbeendoingwithhistime\nformanyprestigiouswineriesincludingCakebread,Stag’sLeapWineCellars,andLaCrema.Robbegan\ncraftingJessupCellarsinthe2009seasonandtookthepositionofDirectorofWinemakingatJessup",
+          "metadata": {
+            "page": 2.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The generated answer states that the exact average rating is unknown, matching the expected response that the information is not provided."
+    },
+    {
+      "id": "U4",
+      "category": "unanswerable",
+      "question": "Who founded Jessup Cellars' first vineyard?",
+      "expected_answer": "The corpus does not provide this information.",
+      "answer": "Jessup Cellars’ original vineyard was founded by the group of owners who started the winery: **Dan and Becky Blue, Roy and Cheri Eis Iminger, Vance and Jana Thompson, Jim and Kelly Mazzo, Kerry and Cindi Solomon, and Eric and Marleen Donnenfeld**.",
+      "retrieved_context": [
+        {
+          "page_content": "Jessup Cellars Corpus\nJessup Cellars Information\nJessupCellarshasacasualandinvitingatmosphereandwasthefirsttastingroomopenedinYountville\nin2003.Youhavetheoptionofsittinginsideourstunningartgalleryoryoumaychoosetoenjoythepatio\nwithgiantumbrellas.Wealsohavespaceavailableforprivategroupsandspecialaccommodationsand\nsnacksforyourchildren.OurfineartismeticulouslycuratedbyourleadartistJermaineDantewho\nexhibitshiscolorfulcreationsinlargeformatsinourspaciousgallerywhereyoucantakein,ortakehome\ntheinspiringartwhileimbibingyourfavoriteJessupwines.\nBOTHSEASONEDWINELOVERS,ANDTHOSEJUSTLEARNINGABOUTWINE,AREEMBRACED\nANDWELCOMEDATJESSUPCELLARS.\nLocatedjustablocknorthfromthefamedTheFrenchLaundryinthequaintvillageofYountville,our\nwinesareavailableexclusivelythroughourTastingRoomGalleryandwebsite.\nFoundedbyDanandBeckyBlue,RoyandCheriEisiminger,VanceandJanaThompson,JimandKelly\nMazzo,KerryandCindiSolomon,andEricandMarleenDonnenfeld,theirmissionistocreateandshare",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "availableaswellaswaterdishes.JessupCellarswinesarecarefullycraftedwiththehelpofour\nrenownedconsultingwinemakerRobLloydwhofamouslycraftedChardonnayforRombauer,LaCrema\nandCakebread.NotonlyhasRobcreatedoneofthebestChardonnaysintheNapaValleywithour2022",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "JessupCellarswelcomesyourwell-behaveddogsinsideoroutsideandwehaveglutenfreedogtreats\t\t\t\t\t\navailableaswellaswaterdishes.JessupCellarswinesarecarefullycraftedwiththehelpofour\t\t\t\t\t\nrenownedconsultingwinemakerRobLloydwhofamouslycraftedChardonnayforRombauer,LaCrema\t\t\t\t\t\nandCakebread.NotonlyhasRobcreatedoneofthebestChardonnaysintheNapaValleywithour2022",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "vintage,buthasalsohelpedcurate'TheArtoftheBlend'withourstellarredwines.\nJessup Cellars Team\nVOTEDMOSTFRIENDLY&KNOWLEDGEABLESTAFF4YEARSINAROW!\nOverthepastseveralyears,JessupCellarshaswonnumerousawardsincludingCellarPass’‘Friendliest\n&MostKnowledgeableStaff’threeyearsinarow,NapaValleyLifemagazine’s‘BestWineClub’and,\nrecently,Yountville’s‘BusinessoftheYear’.\nhttps://jessupcellars.com/reviews/\nRobLloydConsultingWinemaker\nBIOGRAPHY\nHometown:AllofCalifornia\nFavoriteJessupWinePairing:CarnerosChardonnaywithfreshlycaughtMahi-Mahi\nAbout:Rob’sforayintowinestarteddirectlyaftergraduatingcollegewhenhecametoNapatoworkina\ntastingroomforthesummer–beforegettinga‘realjob’.Hebecamefascinatedwithwineandthescience\nofwinemakingandbegantolearneverythinghecouldabouttheprocess.\nWhileinterviewingforthat“realjob”,theintervieweraskedhimwhathehadbeendoingwithhistime\nsincegraduation.Afterspeakingpassionatelyandatlengthaboutwine,theinterviewersaid,“Youseem",
+          "metadata": {
+            "page": 2.0
+          }
+        }
+      ],
+      "answer_verdict": "INCORRECT",
+      "answer_reason": "The expected answer states that the information is not provided, but the generated answer invents specific founders, contradicting the expected unavailability."
+    },
+    {
+      "id": "U5",
+      "category": "unanswerable",
+      "question": "What was Jessup Cellars' total wine production in 2025?",
+      "expected_answer": "The corpus does not provide this information.",
+      "answer": "I don’t know.",
+      "retrieved_context": [
+        {
+          "page_content": "Oursoldout2023100%SauvignonBlancvintageissourcedfromNorthCoastvineyardsagedin100%\nstainlesssteelbarrelswhichistypicalforthisvarietal.Thestainlesssteelsealsouttheoxygenandseals\nintheflavorsofthefruitandisahearty15.1%alcoholcontentwithaPHof3.3.Whileit'snoseand\nflavorshintattropicaldelights,wewouldnotconsiderthiswinetobetoofruitforward,butratherfruit\nbalancedwithhintsofpineappleandmango.OurSauvignonBlancistheperfecthottubwineorforthos\nForstarters,itcomplementstheflavorsofGrilledPrawnCocktailandCeviche,accentuatingtheseafood\ndelicatetasteandbrighteningthecitruselementsinthedishes.Thewine'sfruityandfloralnotes\nMexicandish.Lastly,thewine'shighacidityandfruit-forwardcharacterprovideadelightfulcontrasttoth\ncreamysweetnessofaPeach&Burratasalad,creatingaharmoniousandmemorablepairing.\nRed Wine\nJessupCellarsoffersanumberofredwinesacrossarangeofvarietals,fromPinotNoirandMerlot\nWines.Wealsooffer100%Zinfandelfrom134yearoldvinesintheMendocinoregionandourown100",
+          "metadata": {
+            "page": 3.0
+          }
+        },
+        {
+          "page_content": "delicatetasteandbrighteningthecitruselementsinthedishes.Thewine'sfruityandfloralnotes\nbeautifullycomplementthefreshnessofTacos,makingitanidealmatchforthisflavorfulandversatile\nMexicandish.Lastly,thewine'shighacidityandfruit-forwardcharacterprovideadelightfulcontrasttothe\ncreamysweetnessofaPeach&Burratasalad,creatingaharmoniousandmemorablepairing.\nRed Wine\nJessupCellarsoffersanumberofredwinesacrossarangeofvarietals,fromPinotNoirandMerlot\nblendsfromtheTruchardVineyard,toblendedCabernetSauvignonfromboththeNapaandAlexander\nValleys,ourMendocinoRougettecombiningGrenacheandCarignanvarietalswhichwerefertoasour\n'SummerRed',totheultimateexpressionofthe'ArtoftheBlend\"withourJuelandTableforFourRed\nWines.Wealsooffer100%Zinfandelfrom134yearoldvinesintheMendocinoregionandourown100%\nPetiteSirahgrownintheWoodenValleyinSoutheasternNapaCounty.Wealsooffersomeseasonal\nfavorites,ledbythepopularwhimsicalManny'sBlendwhichshouldbereleasedlaterin2024withavery\nspeciallabel.",
+          "metadata": {
+            "page": 3.0
+          }
+        },
+        {
+          "page_content": "Jessup Cellars Corpus\nJessup Cellars Information\nJessupCellarshasacasualandinvitingatmosphereandwasthefirsttastingroomopenedinYountville\nin2003.Youhavetheoptionofsittinginsideourstunningartgalleryoryoumaychoosetoenjoythepatio\nwithgiantumbrellas.Wealsohavespaceavailableforprivategroupsandspecialaccommodationsand\nsnacksforyourchildren.OurfineartismeticulouslycuratedbyourleadartistJermaineDantewho\nexhibitshiscolorfulcreationsinlargeformatsinourspaciousgallerywhereyoucantakein,ortakehome\ntheinspiringartwhileimbibingyourfavoriteJessupwines.\nBOTHSEASONEDWINELOVERS,ANDTHOSEJUSTLEARNINGABOUTWINE,AREEMBRACED\nANDWELCOMEDATJESSUPCELLARS.\nLocatedjustablocknorthfromthefamedTheFrenchLaundryinthequaintvillageofYountville,our\nwinesareavailableexclusivelythroughourTastingRoomGalleryandwebsite.\nFoundedbyDanandBeckyBlue,RoyandCheriEisiminger,VanceandJanaThompson,JimandKelly\nMazzo,KerryandCindiSolomon,andEricandMarleenDonnenfeld,theirmissionistocreateandshare",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "vintage,buthasalsohelpedcurate'TheArtoftheBlend'withourstellarredwines.\t\t\t\t\t\n\t\t\t\t\t\nJessup Cellars Team\t\t\t\t\t\nVOTEDMOSTFRIENDLY&KNOWLEDGEABLESTAFF4YEARSINAROW!\t\t\t\t\t\nOverthepastseveralyears,JessupCellarshaswonnumerousawardsincludingCellarPass’‘Friendliest\t\t\t\t\t\n&MostKnowledgeableStaff’threeyearsinarow,NapaValleyLifemagazine’s‘BestWineClub’and,\t\t\t\t\t\nrecently,Yountville’s‘BusinessoftheYear’.\t\t\t\t\t\nhttps://jessupcellars.com/reviews/\t\t\t\t\t\nRobLloydConsultingWinemaker\nBIOGRAPHY\nHometown:AllofCalifornia\nFavoriteJessupWinePairing:CarnerosChardonnaywithfreshlycaughtMahi-Mah\ntastingroomforthesummer–beforegettinga‘realjob’.Hebecamefascinatedwithwineandthescienc\nofwinemakingandbegantolearneverythinghecouldabouttheprocess.\nWhileinterviewingforthat“realjob”,theintervieweraskedhimwhathehadbeendoingwithhistime\nformanyprestigiouswineriesincludingCakebread,Stag’sLeapWineCellars,andLaCrema.Robbegan\ncraftingJessupCellarsinthe2009seasonandtookthepositionofDirectorofWinemakingatJessup",
+          "metadata": {
+            "page": 2.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The generated answer states lack of knowledge, which aligns with the expected answer that the information is not provided."
+    },
+    {
+      "id": "A1",
+      "category": "adversarial",
+      "question": "Is Jessup Cellars open 7 days a week, or only on weekdays?",
+      "expected_answer": "Jessup Cellars is open 7 days a week, from 10 AM to 5:30 PM.",
+      "answer": "Jessup Cellars is open **seven days a week** (10 AM – 5:30 PM each day).",
+      "retrieved_context": [
+        {
+          "page_content": "gallery.\t\t\t\t\t\nJessupCellarsandTastingGalleryislocatedat6740WashingtonSt.attheNorthendofYountville\t\t\t\t\t\nacrossfromRHYountvilleandNorthBlockRestaurant.Weareopenfrom10AMto5:30PM7days\t\t\t\t\ta\nweekandcanbereachedat707.944.5620forreservationsandinformation.JessupCellarscanbefound\t\t\t\t\t\nathttps://jessupcellars.com/whereyoumayfinddirections,purchasewineormakereservationsfor\t\t\t\t\t\ntastingsatourYountvilletastingroom.Yountville,Californiaislocated9milesnorthofNapaand9miles\t\t\t\t\t\nsouthofSt.HelenainthecenteroftheNapaValley.YoucanreachYountvillebycarfromanywhereinthe\t\t\t\t\t\nNorthernCaliforniaBayAreainaboutanhour,whiletravelersfromtheSacramentoregionwilltakeabout\t\t\t\t\t\n1.5hours.TheareaisservedbymultipleairportsincludingSFO,Oakland,SacramentoandSantaRosa.\t\t\t\t\t\nJessupCellarswelcomesyourwell-behaveddogsinsideoroutsideandwehaveglutenfreedogtreats\t\t\t\t\t\navailableaswellaswaterdishes.JessupCellarswinesarecarefullycraftedwiththehelpofour",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "upyourwinesifyouareinthearea.TheMyJessup12membersalsoreceive$20flatrateshipping\nanywhereinthelower48states.\nAllofourwineclubsofferthebenefitsofnotonlyreceivinga15%discountonALLwinepurchasesand\nGallery.Wealsooffera$25giftcardifyourguestsbecomememberswhileenjoyingatastingatou\nJessupCellarsTastingRoom&Gallery.",
+          "metadata": {
+            "page": 7.0
+          }
+        },
+        {
+          "page_content": "Jessup Cellars Corpus\nJessup Cellars Information\nJessupCellarshasacasualandinvitingatmosphereandwasthefirsttastingroomopenedinYountville\nin2003.Youhavetheoptionofsittinginsideourstunningartgalleryoryoumaychoosetoenjoythepatio\nwithgiantumbrellas.Wealsohavespaceavailableforprivategroupsandspecialaccommodationsand\nsnacksforyourchildren.OurfineartismeticulouslycuratedbyourleadartistJermaineDantewho\nexhibitshiscolorfulcreationsinlargeformatsinourspaciousgallerywhereyoucantakein,ortakehome\ntheinspiringartwhileimbibingyourfavoriteJessupwines.\nBOTHSEASONEDWINELOVERS,ANDTHOSEJUSTLEARNINGABOUTWINE,AREEMBRACED\nANDWELCOMEDATJESSUPCELLARS.\nLocatedjustablocknorthfromthefamedTheFrenchLaundryinthequaintvillageofYountville,our\nwinesareavailableexclusivelythroughourTastingRoomGalleryandwebsite.\nFoundedbyDanandBeckyBlue,RoyandCheriEisiminger,VanceandJanaThompson,JimandKelly\nMazzo,KerryandCindiSolomon,andEricandMarleenDonnenfeld,theirmissionistocreateandshare",
+          "metadata": {
+            "page": 1.0
+          }
+        },
+        {
+          "page_content": "gallery.\nJessupCellarsandTastingGalleryislocatedat6740WashingtonSt.attheNorthendofYountville\nacrossfromRHYountvilleandNorthBlockRestaurant.Weareopenfrom10AMto5:30PM7daysa\nweekandcanbereachedat707.944.5620forreservationsandinformation.JessupCellarscanbefound\nathttps://jessupcellars.com/whereyoumayfinddirections,purchasewineormakereservationsfor\ntastingsatourYountvilletastingroom.Yountville,Californiaislocated9milesnorthofNapaand9miles\nsouthofSt.HelenainthecenteroftheNapaValley.YoucanreachYountvillebycarfromanywhereinthe\nNorthernCaliforniaBayAreainaboutanhour,whiletravelersfromtheSacramentoregionwilltakeabout\n1.5hours.TheareaisservedbymultipleairportsincludingSFO,Oakland,SacramentoandSantaRosa.\nJessupCellarswelcomesyourwell-behaveddogsinsideoroutsideandwehaveglutenfreedogtreats\navailableaswellaswaterdishes.JessupCellarswinesarecarefullycraftedwiththehelpofour\nrenownedconsultingwinemakerRobLloydwhofamouslycraftedChardonnayforRombauer,LaCrema",
+          "metadata": {
+            "page": 1.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The answer states Jessup Cellars is open seven days a week with the same hours (10 AM–5:30 PM), matching the expected information."
+    },
+    {
+      "id": "A2",
+      "category": "adversarial",
+      "question": "Does the Classic Tasting contain three wines like the Light Flight?",
+      "expected_answer": "No. The Light Flight contains 3 wines, while the Classic Tasting contains 5 wines.",
+      "answer": "No. The Jessup Classic Tasting is described as a flight of **five** wines, whereas the Light Flight includes **three** wines.",
+      "retrieved_context": [
+        {
+          "page_content": "eachtastingfeewillbewaivedforeachpurchaseofwineover$50.Walk-insarewelcomeanytimeforour\nLightFlightexperience.OurmostpopulartastingexperienceistheJessupClassicTasting,which\nincludesaflightof5winesperfectlypairedwithcheeses,accompaniedbypalatecleansingMarcona\nalmondsandachocolatesurprise.TheClassicTastingis$60perperson,butiswaivedwithapurchase\noftwoormorebottlesofwineperperson.\nWineTastingInYourDiningRoom! JessupCellarsoffersavirtualtastingexperienceforthosewhomay\nnotbeabletotraveltotheNapaValleyandenjoyourtastingroomandgallery.Let’sgettogetherfora\nvirtualwinetasting!Oneofourfantasticwineeducatorswillguideyouthroughafunandeducational\ntastingexperiencefeaturinganynumberofwinesthatyouwouldlikeandcustomizedtoyou.Youare\nwelcometoinviteyourfriends,family,andco-workerstojointhefunaswell!Themore,themerrier.We’ll\nuseZoom,whichallowsustohostanygroupsizefromthecomfortofyourownhomes.“Thisisthe\nRolls-Royceofvirtualtastings”–ChowhoundMagazine,May10,2020.FUNWINENIGHTADD-ON!",
+          "metadata": {
+            "page": 6.0
+          }
+        },
+        {
+          "page_content": "eachtastingfeewillbewaivedforeachpurchaseofwineover$50.Walk-insarewelcomeanytimeforour\nLightFlightexperience.OurmostpopulartastingexperienceistheJessupClassicTasting,which\nalmondsandachocolatesurprise.TheClassicTastingis$60perperson,butiswaivedwithapurchase\noftwoormorebottlesofwineperperson.\nWineTastingInYourDiningRoom! JessupCellarsoffersavirtualtastingexperienceforthosewhomay\nnotbeabletotraveltotheNapaValleyandenjoyourtastingroomandgallery.Let’sgettogetherfora\nvirtualwinetasting!Oneofourfantasticwineeducatorswillguideyouthroughafunandeducational\ntastingexperiencefeaturinganynumberofwinesthatyouwouldlikeandcustomizedtoyou.Youare\nwelcometoinviteyourfriends,family,andco-workerstojointhefunaswell!Themore,themerrier.We’l\nuseZoom,whichallowsustohostanygroupsizefromthecomfortofyourownhomes.“Thisisthe\nRolls-Royceofvirtualtastings”–ChowhoundMagazine,May10,2020.FUNWINENIGHTADD-ON!\nSelectyourfavoritewinestotastewithfriends&familyandconnectvirtuallyforaneducationalwine",
+          "metadata": {
+            "page": 6.0
+          }
+        },
+        {
+          "page_content": "customizedtoyourpreference.Members,thereisaminimumpurchaseanda$700refundableBookin\nfee.Non-members,thereisarefundable$1600Eventfee.\nRANDTASTING\ncomeswith12bottlesfortheexperience.Dependingonthestyleofyourevent,wecantaste6or4\ndifferentwines.Members,thereisaminimumpurchaseanda$350refundableBookingfee.\nNon-members,thereisarefundable$2200Eventfee.\nSOIRÉETASTING\nIdealfortastingsatcountryclubs,largegroups,orjustabigcelebration!Allowoneofourwineeducators\ntohelpyoucustomizeyourperfectevent.Ourportfolioofwineprovidesmultipleoptionsdependingon\nfoodpairings,occasion,andsetting.Wewillprovide4to5eachoffourdifferentwinesofyourselection\nforthetasting.Members,thereisaminimumpurchaseanda$350refundableBookingfee.\nNon-members,thereisarefundable$2800Eventfee.\n3differentmembershipoptions,providingflexiblequantitiesandchoicesofwineswithnomemberfees\nOption1is'TastingClub'membershipwhichdelivers3bottlesofwinecuratedbyourteamfourtimesper",
+          "metadata": {
+            "page": 7.0
+          }
+        },
+        {
+          "page_content": "characterofthesoleraremainsconsistentduetotheblendingofolderandyoungerwines.\nPerpetualProcess:TheSolerasystemisdesignedtobeperpetual,withnewwinecontinuouslyaddeda\nthetopandmaturedwinedrawnfromthebottomforbottling.Thisallowsproducerstomaintaina\nconsistentproductwhilealsoensuringthatsomeoftheoriginalwineremainsinthesolerastack,\nsometimesformanyyearsorevendecades.Overall,theSoleramethodisameticulousand\ntime-honoredprocessthatresultsincomplex,well-balanceddessertwineswithlayersofflavorand\naroma.\nTasting Experiences\nJessupCellarsoffersmanyexperiencesforenjoyingourwines.Youmayenjoywinebytheglassorb\nthebottle,butmostpopularareourtastingflights.OurLightFlightincludes3wines,startingwitheithe\nour2022Chardonnayandincludestwoofourmostrequestedredwines.Thecostperpersonis$30,and\neachtastingfeewillbewaivedforeachpurchaseofwineover$50.Walk-insarewelcomeanytimeforour\nLightFlightexperience.OurmostpopulartastingexperienceistheJessupClassicTasting,which",
+          "metadata": {
+            "page": 6.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The answer correctly states that the Classic Tasting has five wines and the Light Flight has three, matching the expected answer."
+    },
+    {
+      "id": "A3",
+      "category": "adversarial",
+      "question": "Is Jessup Cellars' 2019 Merlot made entirely from Merlot grapes?",
+      "expected_answer": "No. It contains 80% Merlot, 16.5% Cabernet Sauvignon, and 3.5% Petite Sirah.",
+      "answer": "No. Jessup Cellars’ 2019 Merlot is a blend—​it’s made of 80 % Merlot, 16.5 % Cabernet Sauvignon, and a small amount (3.5 %) of Petite Sirah. It is not 100 % Merlot grapes.",
+      "retrieved_context": [
+        {
+          "page_content": "CabernetFranc,withMerlotfiguringheavilyintotheblendat24%fromourTruchardVineyardfruit.The\t\t\t\t\t\t\t\t\t\t\t\nwineisfinishedwith2%eachofPetiteSirah,PetiteVerdotandMalbec,allfromtheNapaValley.Jessup\t\t\t\t\t\t\t\t\t\t\t\nCellars'2019\"Juel\"Blendisaharmoniouscompositionofvarietals,atestamenttotheartistryof\t\t\t\t\t\t\t\t\t\t\t\nwinemaking.Thiswineisacelebrationofbalance,withitsblendofdarkfruit,bakingspices,andearthy",
+          "metadata": {
+            "page": 4.0
+          }
+        },
+        {
+          "page_content": "havebuiltaJessupfavoritewiththiswinecomposedof56%NapaValleyCabernetSauvignonand14%\nCabernetFranc,withMerlotfiguringheavilyintotheblendat24%fromourTruchardVineyardfruit.The\nwineisfinishedwith2%eachofPetiteSirah,PetiteVerdotandMalbec,allfromtheNapaValley.Jessup\nCellars'2019\"Juel\"Blendisaharmoniouscompositionofvarietals,atestamenttotheartistryof\nwinemaking.Thiswineisacelebrationofbalance,withitsblendofdarkfruit,bakingspices,andearthy",
+          "metadata": {
+            "page": 4.0
+          }
+        },
+        {
+          "page_content": "TheterroirisideallysuitedforafullbodiedMerlotandlikemanyofourwines,ourMerlotisreflectiveof\nthe'ArtoftheBlend'byourwinemakers.The2019Merlotis80%Merlot,16.5%CabernetSauvignon\nfromtheChilesValleyAVAinNortheasternNapaCountyandasplashofourPetiteSirah(3.5%)fromthe\nsamelocationfinishesthewineperfectly.Ourmerlotisagedfor22monthsin40%newAmerican/French\noakwithanalcoholcontentof15.1%withaPHlevelof3.55.Thiswinedrinkswellnow,however,will\ncontinuetoagegracefullyforanother5-8years. WerecommendtryingthisdeliciousMerlotwithroasted\nchickenandvegetablesorbeefbourguignon.Non-memberscanpickupour2019NapaValleyMerlotfor\n$70.\nJessup’sNapaValleyCabernetSauvignonisastapleofmostNapaValleywinemakerswithJessup\nofferingour2019CabernetSauvignonfor2024.Aswithmostofourredwines,ourwinemakersexercise\n'TheArtoftheBlend'bystartingwith90%NapaValleyfruitfromtheChilesValleyAVAinNortheastern\nNapaCounty,thenblendin5%PetiteSirahfromthesameAVA,3%MerlotfromourTruchardVineyardin",
+          "metadata": {
+            "page": 4.0
+          }
+        },
+        {
+          "page_content": "'TheArtoftheBlend'bystartingwith90%NapaValleyfruitfromtheChilesValleyAVAinNortheastern\nNapaCounty,thenblendin5%PetiteSirahfromthesameAVA,3%MerlotfromourTruchardVineyardin\ntheLosCarnerosregion,thenfinishitwith2.1%CabernetFranc,whichistheparentgrapeofboth\nCabernetSauvignonandMerlot,oftenusedinblendedwines.CabernetFrancoriginatedintheBordeaux\nregionofFranceandtohonorthatprovenance,weageour2019JessupCellarsCabernetSauvignonin\n80%newFrenchoakfor22months.Alcoholcontentinthisvarietalis14.9%withaPHof3.65.Youcan\npurchaseour2019Cabfor$90.Thepalateofthewinematchesthearomaticsprovidingjuicyfruitflavors,\nrichtanninsandalongfinish. Thiswinedrinkswellnowhoweverwillagegracefullyforthenext5-8\nyears.EnjoythisCabernetSauvignonwithaqualitycutofbeeforanydishthathasanicesmoky/fatty/or\ncharredquality.\nJessupCellarshasalsocreateda2018AlexanderValleyCabernetSauvignonwith96.5%Cabernet\ngrapes,finishedwith3.5%NapaValleyPetiteSirahfruit.Thiswinehasaverydifferentnoseandmouth",
+          "metadata": {
+            "page": 4.0
+          }
+        }
+      ],
+      "answer_verdict": "CORRECT",
+      "answer_reason": "The generated answer correctly states that the wine is not 100% Merlot and provides the exact blend percentages (80% Merlot, 16.5% Cabernet Sauvignon, 3.5% Petite Sirah) matching the expected answer."
+    }
+  ]
+}

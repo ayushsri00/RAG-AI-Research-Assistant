@@ -1,0 +1,255 @@
+[
+  {
+    "id": "F1",
+    "category": "factual",
+    "question": "When was Jessup Cellars' first tasting room opened in Yountville?",
+    "expected_answer": "2003",
+    "evidence": ["2003"]
+  },
+  {
+    "id": "F2",
+    "category": "factual",
+    "question": "Where is Jessup Cellars and Tasting Gallery located?",
+    "expected_answer": "6740 Washington Street, at the north end of Yountville, California.",
+    "evidence": [
+      "6740 Washington Street",
+      "Yountville",
+      "California"
+    ]
+  },
+  {
+    "id": "F3",
+    "category": "factual",
+    "question": "What are the opening hours of Jessup Cellars?",
+    "expected_answer": "Every day of the week, from 10 a.m. to 5:30 p.m.",
+    "evidence": [
+      "10 a.m.",
+      "5:30 p.m.",
+      "every day"
+    ]
+  },
+  {
+    "id": "F4",
+    "category": "factual",
+    "question": "Who is the current resident artist at the Jessup Gallery?",
+    "expected_answer": "Jermaine Danté",
+    "evidence": ["Jermaine Danté"]
+  },
+  {
+    "id": "F5",
+    "category": "factual",
+    "question": "Who is Jessup Cellars' consulting winemaker?",
+    "expected_answer": "Rob Lloyd",
+    "evidence": ["Rob Lloyd"]
+  },
+  {
+    "id": "F6",
+    "category": "factual",
+    "question": "How much does the Jessup Classic Tasting cost per person?",
+    "expected_answer": "$60 per person, with the fee waived when purchasing two or more bottles of wine per person.",
+    "evidence": [
+      "$60",
+      "two or more bottles"
+    ]
+  },
+  {
+    "id": "F7",
+    "category": "factual",
+    "question": "How many wines are included in the Jessup Classic Tasting?",
+    "expected_answer": "5 wines",
+    "evidence": ["5 wines"]
+  },
+  {
+    "id": "F8",
+    "category": "factual",
+    "question": "What is the non-member price of the 2022 Napa Valley Chardonnay?",
+    "expected_answer": "$55",
+    "evidence": ["$55", "2022 Napa Valley Chardonnay"]
+  },
+  {
+    "id": "F9",
+    "category": "factual",
+    "question": "How much is the 2019 Napa Valley Cabernet Sauvignon for non-members?",
+    "expected_answer": null,
+    "evidence": []
+  },
+  {
+    "id": "F10",
+    "category": "factual",
+    "question": "What discount do Jessup Cellars wine club members receive on current-release wine purchases?",
+    "expected_answer": "15%",
+    "evidence": [
+      "15%",
+      "current-release wine"
+    ]
+  },
+  {
+    "id": "R1",
+    "category": "reasoning",
+    "question": "What makes Jessup Cellars' Pinot Noir different from a typical Pinot Noir? Include its grape composition, vineyard sources, and aging.",
+    "expected_answer": "Jessup Cellars' Pinot Noir is composed of 96.7% Pinot Noir and 3.3% Petite Sirah. The Pinot Noir comes from Los Carneros Truchard Vineyard, while the Petite Sirah comes from the estate vineyard in Wooden Valley. The wine is aged for 10 months in 50% new French oak barrels.",
+    "evidence": [
+      "96.7% Pinot Noir",
+      "3.3% Petite Sirah",
+      "Los Carneros Truchard Vineyard",
+      "Wooden Valley",
+      "10 months",
+      "50% new French oak"
+    ]
+  },
+  {
+    "id": "R2",
+    "category": "reasoning",
+    "question": "A customer wants a tasting experience for a small dinner with friends. Which Wine on Location experience is designed for groups of up to 12 guests, and what does it include?",
+    "expected_answer": "The Petit Tasting is designed for groups of up to 12 guests and includes a Jessup Cellars wine educator, a guided tasting of six wines, six bottles of wine, and educational commentary about Napa Valley and Jessup Cellars.",
+    "evidence": [
+      "Petit Tasting",
+      "up to 12 guests",
+      "six wines",
+      "six bottles",
+      "wine educator"
+    ]
+  },
+  {
+    "id": "R3",
+    "category": "reasoning",
+    "question": "What are the three Jessup Cellars wine club options, and how frequently does each ship wine?",
+    "expected_answer": "The three options are the Tasting Club, which ships 3 bottles four times per year; My Jessup Cellar 6, which ships 6 bottles twice per year in April and September; and My Jessup Cellar 12, which ships 12 bottles in two shipments per year in April and September.",
+    "evidence": [
+      "Tasting Club",
+      "3 bottles",
+      "four shipments per year",
+      "My Jessup Cellar 6",
+      "6 bottles",
+      "April",
+      "September",
+      "My Jessup Cellar 12",
+      "12 bottles"
+    ]
+  },
+  {
+    "id": "R4",
+    "category": "reasoning",
+    "question": "How does Jessup Cellars combine wine and art as part of its customer experience?",
+    "expected_answer": "Jessup Cellars combines wine and art by operating its tasting room as an art gallery, displaying rotating artwork, featuring resident artist Jermaine Danté, and hosting art-focused events such as ArtHouse Sessions and an ArtHouse Short-Film Series.",
+    "evidence": [
+      "art gallery",
+      "Jermaine Danté",
+      "ArtHouse Sessions",
+      "ArtHouse Short-Film Series"
+    ]
+  },
+  {
+    "id": "R5",
+    "category": "reasoning",
+    "question": "A customer wants a wine that is predominantly Cabernet Sauvignon but includes several other varietals. Which 2019 wine fits this description, and what is its composition?",
+    "expected_answer": "The 2019 Cabernet Sauvignon, composed of approximately 90% Cabernet Sauvignon, 5% Petite Sirah, 3% Merlot, and 2.1% Cabernet Franc.",
+    "evidence": [
+      "2019 Cabernet Sauvignon",
+      "90%",
+      "Cabernet Sauvignon",
+      "5%",
+      "Petite Sirah",
+      "3%",
+      "Merlot",
+      "2.1%",
+      "Cabernet Franc"
+    ]
+  },
+  {
+    "id": "R6",
+    "category": "reasoning",
+    "question": "How does the Jessup Classic Tasting differ from the Light Flight in terms of number of wines, price, and purchase requirement?",
+    "expected_answer": "The Classic Tasting includes 5 wines and costs $60, with the fee waived when purchasing two or more bottles per person. The Light Flight includes 3 wines and costs $30, with the fee waived when making a wine purchase of $50 or more.",
+    "evidence": [
+      "Classic Tasting",
+      "5 wines",
+      "$60",
+      "two or more bottles",
+      "Light Flight",
+      "3 wines",
+      "$30",
+      "$50 or more"
+    ]
+  },
+  {
+    "id": "R7",
+    "category": "reasoning",
+    "question": "Why might Jessup Cellars' 2023 Sauvignon Blanc be difficult for a visitor to purchase during a visit?",
+    "expected_answer": "Because it is produced in very limited quantities and sells out quickly each year, visitors are advised to call ahead to check availability.",
+    "evidence": [
+      "limited supply",
+      "sells out quickly",
+      "check availability"
+    ]
+  },
+  {
+    "id": "U1",
+    "category": "unanswerable",
+    "question": "What is Jessup Cellars' annual revenue?",
+    "expected_answer": null,
+    "evidence": []
+  },
+  {
+    "id": "U2",
+    "category": "unanswerable",
+    "question": "How many employees currently work at Jessup Cellars?",
+    "expected_answer": null,
+    "evidence": []
+  },
+  {
+    "id": "U3",
+    "category": "unanswerable",
+    "question": "What is the exact average rating of Jessup Cellars on Google Reviews?",
+    "expected_answer": null,
+    "evidence": []
+  },
+  {
+    "id": "U4",
+    "category": "unanswerable",
+    "question": "Who founded Jessup Cellars' first vineyard?",
+    "expected_answer": null,
+    "evidence": []
+  },
+  {
+    "id": "U5",
+    "category": "unanswerable",
+    "question": "What was Jessup Cellars' total wine production in 2025?",
+    "expected_answer": null,
+    "evidence": []
+  },
+  {
+    "id": "A1",
+    "category": "adversarial",
+    "question": "Is Jessup Cellars open 7 days a week, or only on weekdays?",
+    "expected_answer": "Jessup Cellars is open 7 days a week, from 10 a.m. to 5:30 p.m.",
+    "evidence": [
+      "7 days a week",
+      "10 a.m.",
+      "5:30 p.m."
+    ]
+  },
+  {
+    "id": "A2",
+    "category": "adversarial",
+    "question": "Does the Classic Tasting contain three wines like the Light Flight?",
+    "expected_answer": "No. The Classic Tasting contains 5 wines, while the Light Flight contains 3 wines.",
+    "evidence": [
+      "Classic Tasting",
+      "5 wines",
+      "Light Flight",
+      "3 wines"
+    ]
+  },
+  {
+    "id": "A3",
+    "category": "adversarial",
+    "question": "Is Jessup Cellars' 2019 Merlot made entirely from Merlot grapes?",
+    "expected_answer": "No. It contains 80% Merlot, 16.5% Cabernet Sauvignon, and 3.5% Petite Sirah.",
+    "evidence": [
+      "80% Merlot",
+      "16.5% Cabernet Sauvignon",
+      "3.5% Petite Sirah"
+    ]
+  }
+]
